@@ -188,6 +188,59 @@ Optional after class:
   <li>Talk at useR 2014 by Andy Chen about Google’s R Style Guidelines.</li>
 </ul>
 
+<h3>Week 2</h3>
+<h5>04-Visualization</h5><small>2015-02-09</small>
+Before class:
+<ul>
+  <li>none</li>
+</ul>
+
+[slides here]
+[.html]
+[.Rmd]
+
+Optional after class:
+<ul>
+  <li>none</li>
+</ul>
+
+<h5>05-Lab-Visualizing data with ggplot2</h5><small>2015-02-09</small>
+Before class:
+<ul>
+  <li>no reading</li>
+</ul>
+
+[slides here]
+[.html]
+[.Rmd]
+
+Optional after class:
+<ul>
+  <li>none</li>
+</ul>
+
+<h5>06-Version control with git and github</h5><small>2015-02-11</small>
+Before class:
+<ul>
+  <li>Gentzkow and Shapiro (2014). <a href="http://faculty.chicagobooth.edu/jesse.shapiro/research/CodeAndData.pdf">Code and Data for the Social Sciences: A Practitioner's Guide</a>. Working paper. <a href="#access" class="oa"></a></li>
+  <li>Tippmann (2014). <a href="http://www.nature.com/news/programming-tools-adventures-with-r-1.16609">Programming tools: Adventures with R</a href>. <i>Nature</i>. <a href="#access" class="oa"></a></li>
+  <li><a href="https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml">Google's R Style Guide</a>. <a href="#access" class="oa"></a></li>
+</ul>
+
+[slides here]
+[.html]
+[.Rmd]
+
+Optional after class:
+<ul>
+  <li>Wickham (2014) Tidy data. Journal of Statistical Software.</li>
+  <li>Healy (2014). Plain text, papers, and pandoc. Blog post.</li>
+  <li>Murrell (2008). Databases in Introduction to Data Technologies. </li>
+  <li>Kent (1983). A Simple Guide to Five Normal Forms in Relational Database Theory. Communications of the ACM. [OA] </li>
+  <li>Talk at useR 2014 by Andy Chen about Google’s R Style Guidelines.</li>
+</ul>
+
+
 
   <div class="jumbotron">
     <!--#include file="footer.html"-->
