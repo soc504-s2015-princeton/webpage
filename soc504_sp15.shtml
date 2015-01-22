@@ -121,18 +121,18 @@ By the end of the semester, you will be able to:
 Week 1: 01-Introduction, 02-Lab-Tranforming data with dplyr, 03-Doing data analysis: An introduction to software engineering <br />
 Week 2: 04-Visualization, 05-Lab-Visualizing data with ggplot2, 06-Version control <br />
 Week 3: 07-Single variable regression, 08-Lab-Running regressions, 09-Multiple regression <br />
-Week 4: 10-Dummy variables and interaction, 11-Lab-Running more complicated regressions, 12-Dummy variables and interactions in practice <br />
+Week 4: 10-Dummy variables and interaction, 11-Lab-Regression diagnostics, 12-Dummy variables and interactions in practice <br />
 Week 5: 13-Statistical inference for regression, 14-Lab-Simulating the data generating process, 15-Beyond star gazing <br />
 Week 6: 16-Matrix approach to regression, 17-Lab-Regression, regression, regression, 18-Maximum likelihood approach to regression <br />
 SPRING BREAK <br />
 Week 7: Regression diagnostics <br />
-Week 8: Causal inference: potential outcomes model, directed graphs<br />
+Week 8: Causal inference: potential outcomes model, graphical models<br />
 Week 9: Causal inference: Matching, Instrumental variables <br />
 Week 10: Logistic regression <br />
 Week 11: Generalized linear model <br />
 Week 12: Cautions and warnings <br />
 
-<h4>Week 1</h4>
+<h3>Week 1</h3>
 <h5>01-Introduction</h5><small>2015-02-02</small>
 Before class:
 <ul>
@@ -143,35 +143,50 @@ Before class:
 [.html]
 [.Rmd]
 
-After class:
-<ul>
-  <li>none</li>
-</ul>
-
 Optional after class:
 <ul>
   <li>none</li>
 </ul>
 
 <h5>02-Lab-Transforming data with dplyr</h5><small>2015-02-02</small>
+Before class:
   <ul>
     <li>no reading</li>
+  </ul>
 
-02-Lab: Transforming data with dplyr
-no reading
+[slides here]
+[.html]
+[.Rmd]
 
 Optional after class:
-R Studio’s data wrangling cheatsheet
-dplyr data frame vignette
-Hadley Wickham’s talk about dplyr at UseR 2014.
-Lohr. 2014. “For Big-Data Scientists, ‘Janitor Work’ Is Key Hurdle to Insights.” New York Times.
-Udwin and Baumer (2015). R Markdown. Working paper.
-R Markdown cheat sheet
+<ul>
+<li>RStudio's <a href="http://www.rstudio.com/wp-content/uploads/2015/01/data-wrangling-cheatsheet.pdf">data wrangling cheatsheet</a href> <a href="#access" class="oa"></a>.</li>
+<li>Hadley Wickham's <a href="http://datascience.la/hadley-wickhams-dplyr-tutorial-at-user-2014-part-1/">talk about dplyr at UseR 2014</a href>. <a href="#access" class="oa"></a></li>
+<li>Lohr. 2014. <a href="http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html">For Big-Data Scientists, `Janitor Work' Is Key Hurdle to Insights."</a href> <i>New York Times</i>. <a href="#access" class="oa"></a></li>
+<li>Udwin and Baumer (2015). <a href="http://arxiv.org/abs/1501.01613">R Markdown</a href>. Working paper. <a href="#access" class="oa"></a></li>
+<li>RStudio's <a href="http://rmarkdown.rstudio.com/RMarkdownCheatSheet.pdf">RMarkdown cheatsheet</a>. <a href="#access" class="oa"></a></li>
+</ul>
 
+<h5>03-Doing data analysis: An introduction to software engineering</h5><small>2015-02-04</small>
+Before class:
+<ul>
+  <li>Gentzkow and Shapiro (2014). <a href="http://faculty.chicagobooth.edu/jesse.shapiro/research/CodeAndData.pdf">Code and Data for the Social Sciences: A Practitioner's Guide</a>. Working paper. <a href="#access" class="oa"></a></li>
+  <li>Tippmann (2014). <a href="http://www.nature.com/news/programming-tools-adventures-with-r-1.16609">Programming tools: Adventures with R</a href>. <i>Nature</i>. <a href="#access" class="oa"></a></li>
+  <li><a href="https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml">Google's R Style Guide</a>. <a href="#access" class="oa"></a></li>
+</ul>
 
+[slides here]
+[.html]
+[.Rmd]
 
-
-
+Optional after class:
+<ul>
+  <li>Wickham (2014) Tidy data. Journal of Statistical Software.</li>
+  <li>Healy (2014). Plain text, papers, and pandoc. Blog post.</li>
+  <li>Murrell (2008). Databases in Introduction to Data Technologies. </li>
+  <li>Kent (1983). A Simple Guide to Five Normal Forms in Relational Database Theory. Communications of the ACM. [OA] </li>
+  <li>Talk at useR 2014 by Andy Chen about Google’s R Style Guidelines.</li>
+</ul>
 
 
   <div class="jumbotron">
