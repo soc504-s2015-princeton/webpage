@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>Sociology 504-Spring 2015</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="navbar.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <style>
+    .ca {
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      background-image: url(closed.png);
+      background-size: 12px 12px;
+    }
+  </style>
+  <style>
+    .oa {
+      display: inline-block;
+      height: 12px;
+      width: 8px;
+      background-image: url(open.png);
+      background-size: 8px 12px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!--#include file="header.html"-->
+
+    <div class="jumbotron">
+      <h2>Advanced data analysis for the social sciences</h2>
+      <br />
+      <h5>Sociology 504</h5>
+      <h5>Princeton University</h5>
+      <h5>Spring 2015</h5>
+      <br />
+      <h5>Monday 1:30pm-3:00pm (Wallace Hall 165)</h5>
+      <h5>Monday 3:00pm-5:00pm (Stokes Library Computer Lab)</h5>
+      <h5>Wednesday 1:30pm-3:00pm (Wallace Hall 165)</h5>
+      <br />
+      <h5>Instructor: <a href="http://www.princeton.edu/~mjs3/">Matthew Salganik</a href></h5>
+    <h5>Preceptor: Angela Dixon</h5>
+    </div>
+
+      <h3>Overview</h3>
+<p>This course is the second of the two-semeter sequence for Ph.D. students in Sociology.  In this course, students will learn the statisical and computational principles neccesiary to perform modern, flexible, and creative analysis of quantiative social data.  This course hopes to transfrom students from consumers of quantative research to producers of it.</p>
+
+<p>See the logistics page for more information about [inspirations], [software], [code conventions], [collaboration policy], [Piazza], and [prerequisites].</p>
+
+
+      <h3>Goals</h3>
+By the end of the semester, you will be able to:
+      <ul>
+        <li>Conduct, interpret, and communicate results from analysis using multiple regression (including dummy variables and interactions).</li>
+        <li>Conduct, interpret, and communicate results from analysis using logistic regression (including dummy variables and interactions).</li>
+        <li>Describe the relationship between multiple regression, logistic regression, and then generalized linear model.</li>
+        <li>Write clean, reusable, and reliable R code.</li>
+        <li>Build a solid, reproducible research pipeline to go from raw data to final paper.</li>
+        <li>Feel empowered working with data.</li>
+      </ul>
+
+      Further, because we cannot possibly cover everything that you will need to know during your career as a researcher, there are two final long-term goals.  After this course is over, you will be able to:
+      <ul>
+        <li>Learn new statistics</li>
+        <li>Learn new programing</li>
+      </ul>
+
+      <h3>Assignments</h3>
+<p>There are three main types of assignments for students:</p>
+<ul>
+  <li><b>Preparing for class:</b> For many classes there will be some reading (or video watching) that you must do before class.  I expect you to come to class 100% prepared.  I will assign a reasonable amount of stuff, and you must do it.  I will not spend valuable class time summarizing readings that you should have done before class.  Rather, we are going to use class time for more valuable learning activities.</li>
+  <li><b>Weekly homework:</b> Learning data analysis takes practice.  There will be weekly homework assignments, and these assigments are described in detail on the homework page.</li>
+  <li><b>Replication and extension project:</b> Students will replicate and extend a published paper.  For more information see the <a href="https://docs.google.com/document/d/1kEley-CVnnHLzqYRApqAm-KkXJwTqqPLoJS17g2nug0/edit?usp=sharing">project page</a>.</li>
+</ul>
+
+<h2>Schedule</h2>
+
+
+<table class="table">
+  <th>Week</th>
+  <th>Monday</th>
+  <th>Monday Lab</th>
+  <th>Wendesday</th>
+  <tr>
+    <td>Week 1:</td>
+    <td>01-Introduction</td>
+    <td>02-Lab-Tranforming data with dplyr</td>
+    <td>03-Doing data analysis: An introduction to software engineering</td>
+  </tr>
+  <tr>
+    <td>Week 2:</td>
+    <td>04-Visualization</td>
+    <td>05-Lab-Visualizing data with ggplot2</td>
+    <td>06-Version control with git and github</td>
+  </tr>
+</table>
+
+Week 1: 01-Introduction, 02-Lab-Tranforming data with dplyr, 03-Doing data analysis: An introduction to software engineering <br />
+Week 2: 04-Visualization, 05-Lab-Visualizing data with ggplot2, 06-Version control <br />
+Week 3: 07-Single variable regression and diagnostics, 08-Lab-Running regressions, 09-Multiple regression and doagnostics <br />
+Week 4: 10-Dummy variables and interaction, 11-Lab-Regression diagnostics, 12-Dummy variables and interactions in practice <br />
+Week 5: 13-Statistical inference for regression, 14-Lab-Simulating the data generating process, 15-Beyond star gazing <br />
+Week 6: 16-Matrix approach to regression, 17-Lab-Regression, regression, regression, 18-Maximum likelihood approach to regression <br />
+SPRING BREAK <br />
+Week 7: Causal inference: potential outcomes model, graphical models<br />
+Week 8: Causal inference: Matching, Instrumental variables <br />
+Week 9: Logistic regression <br />
+Week 10: Generalized linear model <br />
+Week 11: Multilevel modeling <br />
+Week 12: Cautions and warnings <br />
+
+<h3>Week 1</h3>
+<h5>01-Introduction</h5><small>2015-02-02</small>
+Before class:
+<ul>
+  <li>none</li>
+</ul>
+
+[slides here]
+[.html]
+[.Rmd]
+
+Optional after class:
+<ul>
+  <li>none</li>
+</ul>
+
+<h5>02-Lab-Transforming data with dplyr</h5><small>2015-02-02</small>
+Before class:
+  <ul>
+    <li>no reading</li>
+  </ul>
+
+[slides here]
+[.html]
+[.Rmd]
+
+Optional after class:
+<ul>
+<li>RStudio's <a href="http://www.rstudio.com/wp-content/uploads/2015/01/data-wrangling-cheatsheet.pdf">data wrangling cheatsheet</a href> <a href="#access" class="oa"></a>.</li>
+<li>Hadley Wickham's <a href="http://datascience.la/hadley-wickhams-dplyr-tutorial-at-user-2014-part-1/">talk about dplyr at UseR 2014</a href>. <a href="#access" class="oa"></a></li>
+<li>Lohr. 2014. <a href="http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html">For Big-Data Scientists, `Janitor Work' Is Key Hurdle to Insights."</a href> <i>New York Times</i>. <a href="#access" class="oa"></a></li>
+<li>Udwin and Baumer (2015). <a href="http://arxiv.org/abs/1501.01613">R Markdown</a href>. Working paper. <a href="#access" class="oa"></a></li>
+<li>RStudio's <a href="http://rmarkdown.rstudio.com/RMarkdownCheatSheet.pdf">RMarkdown cheatsheet</a>. <a href="#access" class="oa"></a></li>
+</ul>
+
+<h5>03-Doing data analysis: An introduction to software engineering</h5><small>2015-02-04</small>
+Before class:
+<ul>
+  <li>Gentzkow and Shapiro (2014). <a href="http://faculty.chicagobooth.edu/jesse.shapiro/research/CodeAndData.pdf">Code and Data for the Social Sciences: A Practitioner's Guide</a>. Working paper. <a href="#access" class="oa"></a></li>
+  <li>Tippmann (2014). <a href="http://www.nature.com/news/programming-tools-adventures-with-r-1.16609">Programming tools: Adventures with R</a href>. <i>Nature</i>. <a href="#access" class="oa"></a></li>
+  <li><a href="https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml">Google's R Style Guide</a>. <a href="#access" class="oa"></a></li>
+</ul>
+
+[slides here]
+[.html]
+[.Rmd]
+
+Optional after class:
+<ul>
+  <li>Wickham (2014) Tidy data. Journal of Statistical Software.</li>
+  <li>Healy (2014). Plain text, papers, and pandoc. Blog post.</li>
+  <li>Murrell (2008). Databases in Introduction to Data Technologies. </li>
+  <li>Kent (1983). A Simple Guide to Five Normal Forms in Relational Database Theory. Communications of the ACM. [OA] </li>
+  <li>Talk at useR 2014 by Andy Chen about Google’s R Style Guidelines.</li>
+</ul>
+
+<h3>Week 2</h3>
+<h5>04-Visualization</h5><small>2015-02-09</small>
+Before class:
+<ul>
+  <li>none</li>
+</ul>
+
+[slides here]
+[.html]
+[.Rmd]
+
+Optional after class:
+<ul>
+  <li>none</li>
+</ul>
+
+<h5>05-Lab-Visualizing data with ggplot2</h5><small>2015-02-09</small>
+Before class:
+<ul>
+  <li>no reading</li>
+</ul>
+
+[slides here]
+[.html]
+[.Rmd]
+
+Optional after class:
+<ul>
+  <li>none</li>
+</ul>
+
+<h5>06-Version control with git and github</h5><small>2015-02-11</small>
+Before class:
+<ul>
+  <li>Gentzkow and Shapiro (2014). <a href="http://faculty.chicagobooth.edu/jesse.shapiro/research/CodeAndData.pdf">Code and Data for the Social Sciences: A Practitioner's Guide</a>. Working paper. <a href="#access" class="oa"></a></li>
+  <li>Tippmann (2014). <a href="http://www.nature.com/news/programming-tools-adventures-with-r-1.16609">Programming tools: Adventures with R</a href>. <i>Nature</i>. <a href="#access" class="oa"></a></li>
+  <li><a href="https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml">Google's R Style Guide</a>. <a href="#access" class="oa"></a></li>
+</ul>
+
+[slides here]
+[.html]
+[.Rmd]
+
+Optional after class:
+<ul>
+  <li>Wickham (2014) Tidy data. Journal of Statistical Software.</li>
+  <li>Healy (2014). Plain text, papers, and pandoc. Blog post.</li>
+  <li>Murrell (2008). Databases in Introduction to Data Technologies. </li>
+  <li>Kent (1983). A Simple Guide to Five Normal Forms in Relational Database Theory. Communications of the ACM. [OA] </li>
+  <li>Talk at useR 2014 by Andy Chen about Google’s R Style Guidelines.</li>
+</ul>
+
+
+
+  <div class="jumbotron">
+    <!--#include file="footer.html"-->
+  </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
