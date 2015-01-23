@@ -120,16 +120,16 @@ By the end of the semester, you will be able to:
 
 Week 1: 01-Introduction, 02-Lab-Tranforming data with dplyr, 03-Doing data analysis: An introduction to software engineering <br />
 Week 2: 04-Visualization, 05-Lab-Visualizing data with ggplot2, 06-Version control <br />
-Week 3: 07-Single variable regression, 08-Lab-Running regressions, 09-Multiple regression <br />
+Week 3: 07-Single variable regression and diagnostics, 08-Lab-Running regressions, 09-Multiple regression and doagnostics <br />
 Week 4: 10-Dummy variables and interaction, 11-Lab-Regression diagnostics, 12-Dummy variables and interactions in practice <br />
 Week 5: 13-Statistical inference for regression, 14-Lab-Simulating the data generating process, 15-Beyond star gazing <br />
 Week 6: 16-Matrix approach to regression, 17-Lab-Regression, regression, regression, 18-Maximum likelihood approach to regression <br />
 SPRING BREAK <br />
-Week 7: Regression diagnostics <br />
-Week 8: Causal inference: potential outcomes model, graphical models<br />
-Week 9: Causal inference: Matching, Instrumental variables <br />
-Week 10: Logistic regression <br />
-Week 11: Generalized linear model <br />
+Week 7: Causal inference: potential outcomes model, graphical models<br />
+Week 8: Causal inference: Matching, Instrumental variables <br />
+Week 9: Logistic regression <br />
+Week 10: Generalized linear model <br />
+Week 11: Multilevel modeling <br />
 Week 12: Cautions and warnings <br />
 
 <h3>Week 1</h3>
