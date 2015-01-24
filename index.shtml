@@ -92,6 +92,15 @@ By the end of the semester, you will be able to:
 <!--#set var="07" value="07-Regression and diagnostics" -->
 <!--#set var="08" value="08-Lab-Running regressions" -->
 <!--#set var="09" value="09-Multiple regression and diagnostics" -->
+<!--#set var="10" value="10-Dummy variables and interaction" -->
+<!--#set var="11" value="11-Lab-Regression diagnostics" -->
+<!--#set var="12" value="12-Dummy variables and interactions in practice" -->
+<!--#set var="13" value="13-Statistical inference for regression" -->
+<!--#set var="14" value="14-Lab-Simulating the data generating process" -->
+<!--#set var="15" value="15-Beyond star gazing" -->
+<!--#set var="16" value="16-Matrix approach to regression" -->
+<!--#set var="17" value="17-Regression, regression, regression" -->
+<!--#set var="18" value="18-Maximum likelihood approach to regression" -->
 
 <table class="table">
   <th>Week</th>
@@ -100,7 +109,7 @@ By the end of the semester, you will be able to:
   <th>Wendesday</th>
   <tr>
     <td>1</td>
-    <td><!--#echo var="01" --></td>
+    <td><a href="#01"><!--#echo var="01" --></a></td>
     <td><!--#echo var="02" --></td>
     <td><!--#echo var="03" --></td>
   </tr>
@@ -116,12 +125,27 @@ By the end of the semester, you will be able to:
     <td><!--#echo var="08" --></td>
     <td><!--#echo var="09" --></td>
   </tr>
+  <tr>
+    <td>4</td>
+    <td><!--#echo var="10" --></td>
+    <td><!--#echo var="11" --></td>
+    <td><!--#echo var="12" --></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td><!--#echo var="13" --></td>
+    <td><!--#echo var="14" --></td>
+    <td><!--#echo var="15" --></td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td><!--#echo var="16" --></td>
+    <td><!--#echo var="17" --></td>
+    <td><!--#echo var="18" --></td>
+  </tr>
 
 </table>
 
-Week 4: 10-Dummy variables and interaction, 11-Lab-Regression diagnostics, 12-Dummy variables and interactions in practice <br />
-Week 5: 13-Statistical inference for regression, 14-Lab-Simulating the data generating process, 15-Beyond star gazing <br />
-Week 6: 16-Matrix approach to regression, 17-Lab-Regression, regression, regression, 18-Maximum likelihood approach to regression <br />
 SPRING BREAK <br />
 Week 7: Causal inference: potential outcomes model, graphical models<br />
 Week 8: Causal inference: Matching, Instrumental variables <br />
@@ -131,7 +155,7 @@ Week 11: Multilevel modeling <br />
 Week 12: Cautions and warnings <br />
 
 <h3>Week 1</h3>
-<h5>01-Introduction</h5><small>2015-02-02</small>
+<h5><a name="01"><!--#echo var="01" --></a></h5><small>2015-02-02</small>
 Before class:
 <ul>
   <li>none</li>
