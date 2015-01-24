@@ -83,6 +83,15 @@ By the end of the semester, you will be able to:
 
 <h2>Schedule</h2>
 
+<!--#set var="01" value="01-Introduction" -->
+<!--#set var="02" value="02-Lab-Tranforming data with dplyr" -->
+<!--#set var="03" value="03-Doing data analysis: An introduction to software engineering" -->
+<!--#set var="04" value="04-Visualization" -->
+<!--#set var="05" value="05-Lab-Visualizing data with ggplot2" -->
+<!--#set var="06" value="06-Version control with git and github" -->
+<!--#set var="07" value="07-Regression and diagnostics" -->
+<!--#set var="08" value="08-Lab-Running regressions" -->
+<!--#set var="09" value="09-Multiple regression and diagnostics" -->
 
 <table class="table">
   <th>Week</th>
@@ -91,28 +100,25 @@ By the end of the semester, you will be able to:
   <th>Wendesday</th>
   <tr>
     <td>1</td>
-    <td>01-Introduction</td>
-    <td>02-Lab-Tranforming data with dplyr</td>
-    <td>03-Doing data analysis: An introduction to software engineering</td>
+    <td><!--#echo var="01" --></td>
+    <td><!--#echo var="02" --></td>
+    <td><!--#echo var="03" --></td>
   </tr>
   <tr>
     <td>2</td>
-    <td>04-Visualization</td>
-    <td>05-Lab-Visualizing data with ggplot2</td>
-    <td>06-Version control with git and github</td>
+    <td><!--#echo var="04" --></td>
+    <td><!--#echo var="05" --></td>
+    <td><!--#echo var="06" --></td>
   </tr>
   <tr>
     <td>3</td>
-    <td>07-Visualization</td>
-    <td>08-Lab-Visualizing data with ggplot2</td>
-    <td>09-Version control with git and github</td>
+    <td><!--#echo var="07" --></td>
+    <td><!--#echo var="08" --></td>
+    <td><!--#echo var="09" --></td>
   </tr>
 
 </table>
 
-Week 1: 01-Introduction, 02-Lab-Tranforming data with dplyr, 03-Doing data analysis: An introduction to software engineering <br />
-Week 2: 04-Visualization, 05-Lab-Visualizing data with ggplot2, 06-Version control <br />
-Week 3: 07-Single variable regression and diagnostics, 08-Lab-Running regressions, 09-Multiple regression and doagnostics <br />
 Week 4: 10-Dummy variables and interaction, 11-Lab-Regression diagnostics, 12-Dummy variables and interactions in practice <br />
 Week 5: 13-Statistical inference for regression, 14-Lab-Simulating the data generating process, 15-Beyond star gazing <br />
 Week 6: 16-Matrix approach to regression, 17-Lab-Regression, regression, regression, 18-Maximum likelihood approach to regression <br />
@@ -236,7 +242,7 @@ Optional after class:
 
   <div class="jumbotron">
     <!--#include file="footer.html"-->
-    
+
   </div>
 
     </div> <!-- /container -->
