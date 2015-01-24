@@ -3,7 +3,7 @@
     display: inline-block;
     height: 12px;
     width: 12px;
-    background-image: url(closed.png);
+    background-image: url(images/closed.png);
     background-size: 12px 12px;
   }
 </style>
@@ -12,7 +12,7 @@
     display: inline-block;
     height: 12px;
     width: 8px;
-    background-image: url(open.png);
+    background-image: url(images/open.png);
     background-size: 8px 12px;
   }
 </style>
