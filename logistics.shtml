@@ -25,7 +25,7 @@
       <h3>Code conventions</h3>
 <p>Throughout the course students will receive feedback on their code from the professor, the preceptor, and other students. Therefore, consistent code conventions are critical. All code written for this class should follow the <a href="https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml">R style guide used at Google</a href>. Good coding style is an important way to increase the readability of your code.</p>
 
-  h3>Inspirations<h3>
+  <h3>Inspirations<h3>
     <p>This class has changed a lot since the <a href="http://www.princeton.edu/~mjs3/soc504_sp13.shtml"last time I taught it</a href>.  There were three main intellectual inspirations for that:</p>
       <ul>
         <li>Data science</li>
@@ -34,5 +34,8 @@
       </ul>
 
 
+<h3>Time</h3>
 
-      
+      <h5>Monday 1:30pm-3:00pm (Wallace Hall 165)</h5>
+      <h5>Monday 3:00pm-5:00pm (Stokes Library Computer Lab)</h5>
+      <h5>Wednesday 1:30pm-3:00pm (Wallace Hall 165)</h5>
