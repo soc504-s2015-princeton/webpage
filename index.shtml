@@ -54,20 +54,20 @@
     <!--#include file="header.html"-->
 
     <div class="jumbotron">
-      <h2>Advanced data analysis for the social sciences</h2>
-      <h5>Sociology 504, Spring 2015, Princeton University</h5>
+      <h2>Sociology 504: Advanced data analysis for the social sciences</h2>
+      <h4>Princeton University, Spring 2015</h4>
       <br />
-      <h5>Instructor: <a href="http://www.princeton.edu/~mjs3/">Matthew Salganik</a href></h5>
-      <h5>Preceptor: Angela Dixon</h5>
+      <h4>Instructor: <a href="http://www.princeton.edu/~mjs3/">Matthew Salganik</a href></h4>
+      <h4>Preceptor: Angela Dixon</h4>
     </div>
 
-      <h3>Overview</h3>
+      <h2>Overview</h2>
 <p>This course is the second of the two-semeter sequence for Ph.D. students in Sociology.  In this course, students will learn the statisical and computational principles neccesiary to perform modern, flexible, and creative analysis of quantiative social data.  This course hopes to transfrom students from consumers of quantative research to producers of it.</p>
 
 <p>See the logistics page for more information about [inspirations], [software], [code conventions], [collaboration policy], [Piazza], and [prerequisites].</p>
 
 
-      <h3>Goals</h3>
+      <h2>Goals</h2>
 By the end of the semester, you will be able to:
       <ul>
         <li>Conduct, interpret, and communicate results from analysis using multiple regression (including dummy variables and interactions).</li>
@@ -84,7 +84,7 @@ By the end of the semester, you will be able to:
         <li>Learn new programing</li>
       </ul>
 
-      <h3>Assignments</h3>
+      <h2>Assignments</h2>
 <p>There are three main types of assignments for students:</p>
 <ul>
   <li><b>Preparing for class:</b> For many classes there will be some reading (or video watching) that you must do before class.  I expect you to come to class 100% prepared.  I will assign a reasonable amount of stuff, and you must do it.  I will not spend valuable class time summarizing readings that you should have done before class.  Rather, we are going to use class time for more valuable learning activities.</li>
@@ -93,8 +93,10 @@ By the end of the semester, you will be able to:
 </ul>
 
 
-<h3 id="access">Open access</h3>
+<h2 id="access">Open access</h2>
 <p>I have marked open access materials with a <img src="images/open.png" height="12"> and closed access materials with a <img src="images/closed.png" height="12">.  If you do not have access to a university library, copies of many of the closed access articles can be found through <a href="http://scholar.google.com">Google Scholar</a href>.</p>
+
+<h2>Schedule</h2>
 
 
 <!--#set var="01" value="01-Introduction" -->
@@ -202,7 +204,7 @@ Optional after class:
   <li>none</li>
 </ul>
 
-<h3 name="02"><!--#echo var="02" -->, <small>2015-02-02</small></h3>
+<h3 name="02"><!--#echo var="02" --><small>, 2015-02-02</small></h3>
 Before class:
   <ul>
     <li>no reading</li>
@@ -217,7 +219,7 @@ Optional after class:
 <li>RStudio's <a href="http://rmarkdown.rstudio.com/RMarkdownCheatSheet.pdf">RMarkdown cheatsheet</a>. <a href="#access" class="oa"></a></li>
 </ul>
 
-<h3 name="03"><!--#echo var="03" -->, <small>2015-02-04</small></h3>
+<h3 name="03"><!--#echo var="03" --><small>, 2015-02-04</small></h3>
 Before class:
 <ul>
   <li>Gentzkow and Shapiro (2014). <a href="http://faculty.chicagobooth.edu/jesse.shapiro/research/CodeAndData.pdf">Code and Data for the Social Sciences: A Practitioner's Guide</a>. Working paper. <a href="#access" class="oa"></a></li>
@@ -238,62 +240,67 @@ Optional after class:
 <hr>
 <hr>
 
-<h5>04-Visualization</h5><small>2015-02-09</small>
+<h3 name="04"><!--#echo var="04" --><small>, 2015-02-09</small></h3>
 Before class:
 <ul>
-  <li>none</li>
+  <li>Healy and Moody (2014). <a href="http://kieranhealy.org/files/papers/data-visualization.pdf">Data visualization in sociology</a>. <i>Annual Review of Sociology</i>. <a href="#access" class="oa"></a></li>
+  <li>Healy (2014). <a href="http://kieranhealy.org/blog/archives/2014/08/05/a-visualization-error/">A visualization error</a>. Blog post. <a href="#access" class="oa"></a></li>
+  <li>Tufte (1997). Visual and Statistical Thinking: Displays of Evidence for Making Decisions in <a href="http://www.edwardtufte.com/tufte/books_visex">Visual Explanations</a>. (Available from Blackboard) <a href="#access" class="ca"></a>
+  <li>Wickham (nd). <a href="https://github.com/hadley/ggplot2-book/blob/master/introduction.rmd">Introduction</a> in <a href="http://www.amazon.com/dp/0387981403/">ggplot2: Elegant Graphics for Data Analysis</a>. <a href="#access" class="oa"></a><li>
 </ul>
 
-[slides here]
-[.html]
-[.Rmd]
 
 Optional after class:
 <ul>
-  <li>none</li>
+  <li>Gelman et al (2002). <a href="http://www.jstor.org/stable/3087382">Let's Practice What We Preach: Turning Tables into Graphs.</a> <i>The American Statistician</i>. <a href="#access" class="ca"></a></li>
+  <li>Kastellec and Leoni (2007). <a href="http://dx.doi.org/10.1017/S1537592707072209">Using Graphs Instead of Tables in Political Science.</a href> <i>Perspectives on Politics</i>. <a href="#access" class="ca"></a> [see also the <a href="http://tables2graphs.com/doku.php">code repository</a>] <a href="#access" class="oa"></a></li>
+  <li>Rougier et al (2014). <a href="http://dx.doi.org/10.1371/journal.pcbi.1003833">Ten Simple Rules for Better Figures</a href>, <i>PLOS Computational Biology</i>. <a href="#access" class="oa"></a></li>
+  <li>Wickham (2010). <a href="http://vita.had.co.nz/papers/layered-grammar.pdf">A layered grammar of graphics</a>. <i>Journal of Computational and Graphical Statistics</i>. <a href="#access" class="oa"></a></li>
 </ul>
 
-<h5>05-Lab-Visualizing data with ggplot2</h5><small>2015-02-09</small>
+<h3 name="05"><!--#echo var="05" --><small>, 2015-02-09</small></h3>
 Before class:
 <ul>
-  <li>no reading</li>
+  <li>Watch Visualizing Data Using ggplot2 by David Robinson</li>
+    <ol>
+    <li>Introduction (about 3 minutes)</li>
+    <li>Scatter Plots (about 8 minutes)</li>
+    <li>Faceting and Additional Options (about 4 minutes)</li>
+    <li>Histograms and Density Plots (about 4 minutes)</li>
+    <li>Boxplots and Violin Plots (about 3 minutes)</li>
+    <li>Input- Getting Data into the Right Format (about 9 minutes) [note: we will not use qplot(), but you should know that it exists]</li>
+    <li>Output- Saving Your Plots (about 3 minutes)</li>
+  </li>
 </ul>
 
-[slides here]
-[.html]
-[.Rmd]
 
 Optional after class:
 <ul>
-  <li>none</li>
+  <li></li>
 </ul>
 
-<h5>06-Version control with git and github</h5><small>2015-02-11</small>
+<h3 name="06"><!--#echo var="06" --><small>, 2015-02-11</small></h3>
 Before class:
 <ul>
-  <li>Gentzkow and Shapiro (2014). <a href="http://faculty.chicagobooth.edu/jesse.shapiro/research/CodeAndData.pdf">Code and Data for the Social Sciences: A Practitioner's Guide</a>. Working paper. <a href="#access" class="oa"></a></li>
-  <li>Tippmann (2014). <a href="http://www.nature.com/news/programming-tools-adventures-with-r-1.16609">Programming tools: Adventures with R</a href>. <i>Nature</i>. <a href="#access" class="oa"></a></li>
-  <li><a href="https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml">Google's R Style Guide</a>. <a href="#access" class="oa"></a></li>
+  <li>Watch Matthew Mccullough's talk: <a href="http://git-scm.com/video/what-is-version-control">What is version control?</a> </li>
+  <li>Watch Mehan Jayasuriya talk: <a href="https://www.youtube.com/watch?v=PFwUHTE6mFc">Introduction to Git and GitHub</a>, Webcast. [Note: We will not be using all of the features of github.  The goal of this video is to give you a big picture overview.  I don’t expect you to understand everything in the video.  In class, we’ll focus on the parts that are most important for us.  Also, we will generally use RStudio rather than the terminal to interact with the git and github.]</li>
 </ul>
 
-[slides here]
-[.html]
-[.Rmd]
 
 Optional after class:
 <ul>
-  <li>Wickham (2014) Tidy data. Journal of Statistical Software.</li>
-  <li>Healy (2014). Plain text, papers, and pandoc. Blog post.</li>
-  <li>Murrell (2008). Databases in Introduction to Data Technologies. </li>
-  <li>Kent (1983). A Simple Guide to Five Normal Forms in Relational Database Theory. Communications of the ACM. [OA] </li>
-  <li>Talk at useR 2014 by Andy Chen about Google’s R Style Guidelines.</li>
+  <li>Hadley Wickham's Webinar: "Collaboration and time travel: version control with git, github and RStudio" (link coming soon). <a href="#access" class="oa"></a></li>
+  <li>Ram (2013) <a href="http://dx.doi.org/10.1186/1751-0473-8-7">Git can facilitate greater reproducibility and increased transparency in science.</a> <i>Source Code for Biology and Medicine</i>. <a href="#access" class="oa"></a></li>
+  <li>Watch <a href="https://www.youtube.com/watch?v=4XpnKHJAok8">Linus Torvalds talk about git</a> at Google in 2007. [Note: This is about the history and design philosophy of git; it is not about how to use git.] <a href="#access" class="oa"></a> </li>
+  <li>Github's <a href="https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf">git cheat sheet</a>. <a href="#access" class="oa"></a></li>
 </ul>
 
+
+More coming soon . . .
 
 
   <div class="jumbotron">
     <!--#include file="footer.html"-->
-
   </div>
 
     </div> <!-- /container -->
