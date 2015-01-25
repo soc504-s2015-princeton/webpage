@@ -16,9 +16,6 @@
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -29,99 +26,86 @@
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
     <div class="container">
 
+<h1>Replication and extension project</h1>
 
-<h2> Submtting homework </h2>
-
-Before doing this you will need to:
-<ul>
-  <li>instal <a href="http://www.rstudio.com/products/rstudio/download/">R Studio</a href>; if you are using lotka you can skip this step (should be easy)</li>
-  <li>make sure that git, github, and R Studio are working together.  To do this you should follow Hadley Wickham's instructions for <a href="http://r-pkgs.had.co.nz/git.html#git-init">inital set-up</a href>. (could be hard)</li>
-Here are a few tips for this last step:
-<ul>
-  <li>If you are using lotka, you can skip the first step.  It already has git installed.</li>
-  <li>If you are using a Mac, you might be able to skip the first step.  Many already have git installed.</li>
-  <li>when you create an account on github, you should sign-up for the <a href="https://education.github.com/pack">student  developer pack</a href> as this will give you a free github micro account and some other cool stuff (should be easy)</li>
-  <li>If you are having trouble getting git and R Studio to work together Jenny Bryan's notes might help: <a href="https://stat545-ubc.github.io/git03_rstudio-meet-git.html">RStudio meet git</a href>.
-</ul>
-</ul>
-
-<ol>
-  <li><mark>To start, fork the repository.</mark> [GITHUB]</li>
-
-<img src="fork.png" width="800"> <br />
-
-Tips:
-<ul>
-  <li>Read more about <a href="https://guides.github.com/activities/forking/">forking</a href></li>
-</ul>
-
-  <li><mark>Clone the repository to your computer.</mark> [RSTUDIO and GITHUB]</li>
-
-<img src="clone_newproject.png" width="800"> <br />
-
-<img src="clone_versioncontrol.png" width="800"> <br />
-
-<img src="clone_git.png" width="800"> <br />
-
-<img src="clone_get_address.png" width="800"> <br />
-
-<img src="clone_paste_address.png" width="800"> <br />
-
-Tips
-<ul>
-  <li>Before cloning make sure all your R Studio projects are closed.</li>
-</ul>
-
-    <li><mark>Modify the files and commit changes to complete your solution.  This is step where you actually do your homework!  This one should be the hardest one :) </mark> [RSTUDIO]</li>
-
-<img src="doing_homework.png" width="800"> <br />
-
-<img src="commit_homework.png" width="800"> <br />
-
-Tips
-<ul>
-  <li>Don't forget to commit your homework before pushing to github.</li>
-</ul>
+  <p>In this project, you will work with a partner to reproduce and extend a published research article.  The primary goal of this project is to provide the raw materials for a publishable paper, which will be developed and written in the empirical seminar next year.  The secondary goals of this project are to 1) give you practice learning new statistical material and computational techniques; 2) give you practice using good software engineering techniques; 3) give you practice doing collaborative research, something you will do throughout your career; 4) show you, in a way that no homework assignment can, the complexity and joy of doing real data analysis.  This project not be without pain -- <a href="https://politicalsciencereplication.wordpress.com/2013/05/14/nightmare-after-nightmare-students-trying-to-replicate-work/">Nightmare after nightmare: students trying to replicate work</a> -- but it will be worth it.<p>
 
 
-    <li><mark>Push/sync the changes up to GitHub.</mark> [RSTUDIO]</li>
+  <p>Here are the five steps to the project:</p>
+  <ol>
+    <li><a href="#pick">Pick a paper</a></li>
+    <li>Reproduce the results exactly</li>
+    <li>Have your work reproduced by a peer</li>
+    <li>Do something new</li>
+    <li>Have your work reproduced by a peer</li>
+  </ol>
 
-<img src="push_to_github.png" width="800"> <br />
+  <h2 id="pick">Pick a paper</h2>
 
-    <li><mark>Create a pull request on the original repository to turn in the assignment.</mark> [GITHUB]</li>
+    <p>You should pick a paper in an area that is interesting to you.  Some people recommend that the paper be published recently and in a top journal in the field.  Also, the paper should use methods related to those that we are going to learn in the course.</p>
+    <p>Since this is the first time I’ve tried this project, I'm going to require that the paper you select has data already available.  I don't want you to spend your time emailing with authors.  That is not the kind of learning experience I’m hoping to create with this project.  Also, I strongly recommend that you pick a paper where the code is already available.  To be clear, you should not use this code.  But, having this code available means that you should be able to ultimately reproduce the results in the published paper.</p>
+    <p>If you are looking for examples of papers that have been replicated in the past, check out the <a href="http://projects.iq.harvard.edu/gov2001/data">dataverse for Harvard's Gov2001 course</a>.</p>
 
-<img src="pull_request_screen.png" width="800"> <br />
+  <h2 id="reproduce">Reproduce the results exactly</a>
 
-<img src="pull_request_info.png" width="800"> <br />
+    <p>You should be able to recreate every table and graph in the paper exactly.  First, create a document with images of each table and each figure.  Next, add the parts of the text where the authors describe how the results were generated.  Finally, create code that reproduces the results.  This document will be highly structured.  For example,</p>
+    <ul>
+      <li>Table 1</li>
+      <li>Image</li>
+      <li>Text</li>
+      <li>Your code to reproduce Table 1</li>
+    </ul>
 
-<img src="pull_request_complete.png" width="800"> <br />
+  <h2 id="peer1">Have your duplication reproduced by a peer</h2>
+    <p>Since everyone in the class will be using github this should be easy.  Basically, someone will clone your repo and reproduce your reproduction.</p>
 
-</ol>
 
-All done!
+  <h2 id="new">Do something new</h2>
+    <p>You should somehow extend or improve the paper you are reproducing.  Here are some examples of how you could do that:</p>
+    <ul>
+      <li>create different visualizations of their data and results.</li>
+      <li>extend the analysis in new ways (e.g., changing control variables).</li>
+      <li>re-run the same analysis on completely different data.</li>
+      <li>take an old paper and update the  analysis with newer data.</li>
+      <li>For other ideas for how to add value, see <a href="http://gking.harvard.edu/files/gking/files/paperspub.pdf">item 8 in King 2006</a>.</li>
+
+
+    <h2>Have your work reproduced by a peer</h2>
+      Again, this should be easy because we are all on github and we are using reproducible practices.
+
+    <h2>Tips for providing feedback</h2>
+      Twice in the course you will reproduce a peer’s work.  You feedback should be specific and constructive.
+      Are the variable names clear?
+      Is the logic of the code clear?
+      Does the code have lots of copying-and-pasting?
+      Should certain parts of the code be split into functions?
+
+
+    <h2>Technical requirements</h2>
+      <ul>
+        <li>You must work with a partner.</li>
+        <li>You must use RMarkdown or LaTeX + knitr.  This ensures that your code and your words are in the same place.</li>
+        <li>You and your partner(s) must use github for project management and version control.</li>
+       </ul>
+
+    <h2>Schedule</h2>
+      Week 1: look for a paper and a partner
+      Week 2: send proposed paper and a one paragraph justification to professor and preceptor
+      Week 3: prepare template for reproduction
+      Week 4: work on reproduction
+      Week 5: more work on reproduction
+      Week 6: submit reproduction
+      SPRING BREAK
+      Week 7: reproduce reproduction created by a peer, and write a memo offering suggestions for how to improve
+      Week 8: work on doing something new
+      Week 9: work on doing something new
+      Week 10: work on doing something new
+      Week 11: Submit your replication and extension
+      Week 12: reproduce reproduction and extension created by a peer, and write a memo offering suggestions for how to improve
+      Reading period: make improvements based on feedback
+      Dean’s Date (Tuesday, May 12): submit final product
 
 
     </div><!-- /.container -->
