@@ -245,8 +245,8 @@ Before class:
 <ul>
   <li>Healy and Moody (2014). <a href="http://kieranhealy.org/files/papers/data-visualization.pdf">Data visualization in sociology</a>. <i>Annual Review of Sociology</i>. <a href="#access" class="oa"></a></li>
   <li>Healy (2014). <a href="http://kieranhealy.org/blog/archives/2014/08/05/a-visualization-error/">A visualization error</a>. Blog post. <a href="#access" class="oa"></a></li>
-  <li>Tufte (1997). Visual and Statistical Thinking: Displays of Evidence for Making Decisions in <a href="http://www.edwardtufte.com/tufte/books_visex">Visual Explanations</a>. (Available from Blackboard) <a href="#access" class="ca"></a>
-  <li>Wickham (nd). <a href="https://github.com/hadley/ggplot2-book/blob/master/introduction.rmd">Introduction</a> in <a href="http://www.amazon.com/dp/0387981403/">ggplot2: Elegant Graphics for Data Analysis</a>. <a href="#access" class="oa"></a><li>
+  <li>Tufte (1997). Visual and Statistical Thinking: Displays of Evidence for Making Decisions in <a href="http://www.edwardtufte.com/tufte/books_visex">Visual Explanations</a>. (Available from Blackboard) <a href="#access" class="ca"></a> </li>
+  <li>Wickham (nd). <a href="https://github.com/hadley/ggplot2-book/blob/master/introduction.rmd">Introduction</a> in <a href="http://www.amazon.com/dp/0387981403/">ggplot2: Elegant Graphics for Data Analysis</a>. <a href="#access" class="oa"></a> </li>
 </ul>
 
 
@@ -261,7 +261,7 @@ Optional after class:
 <h3 name="05"><!--#echo var="05" --><small>, 2015-02-09</small></h3>
 Before class:
 <ul>
-  <li>Watch Visualizing Data Using ggplot2 by David Robinson</li>
+  <li>Watch <a href="http://varianceexplained.org/RData/lessons/lesson2/">Visualizing Data Using ggplot2</a> by David Robinson</li>
     <ol>
     <li>Introduction (about 3 minutes)</li>
     <li>Scatter Plots (about 8 minutes)</li>
@@ -297,7 +297,9 @@ Optional after class:
 </ul>
 
 
-More coming soon . . .
+<h3>More coming soon . . .</h3>
+
+
 
 
   <div class="jumbotron">
