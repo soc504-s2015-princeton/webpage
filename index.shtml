@@ -282,8 +282,9 @@ Optional after class:
 <h3 name="06"><!--#echo var="06" --><small>, 2015-02-11</small></h3>
 Before class:
 <ul>
-  <li>Watch Matthew Mccullough's talk: <a href="http://git-scm.com/video/what-is-version-control">What is version control?</a> </li>
-  <li>Watch Mehan Jayasuriya talk: <a href="https://www.youtube.com/watch?v=PFwUHTE6mFc">Introduction to Git and GitHub</a>, Webcast. [Note: We will not be using all of the features of github.  The goal of this video is to give you a big picture overview.  I don’t expect you to understand everything in the video.  In class, we’ll focus on the parts that are most important for us.  Also, we will generally use RStudio rather than the terminal to interact with the git and github.]</li>
+  <li>Watch Matthew Mccullough's talk: <a href="http://git-scm.com/video/what-is-version-control">What is version control?</a> <a href="#access" class="oa"></a></li>
+  <li>Watch Mehan Jayasuriya talk: <a href="https://www.youtube.com/watch?v=PFwUHTE6mFc">Introduction to Git and GitHub</a>, Webcast. [Note: We will not be using all of the features of github.  The goal of this video is to give you a big picture overview.  I don’t expect you to understand everything in the video.  In class, we’ll focus on the parts that are most important for us.  Also, we will generally use RStudio rather than the terminal to interact with the git and github.] <a href="#access" class="oa"></a></li>
+  <li>Nice R Code's <a href="http://nicercode.github.io/git/">Introduction to version control using git</a>. <a href="#access" class="oa"></a></li>
 </ul>
 
 
