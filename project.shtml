@@ -32,6 +32,7 @@
 
   <p>In this project, you will work with a partner to reproduce and extend a published research article.  The primary goal of this project is to provide the raw materials for a publishable paper, which will be developed and written in the empirical seminar next year.  The secondary goals of this project are to 1) give you practice learning new statistical material and computational techniques; 2) give you practice using good software engineering techniques; 3) give you practice doing collaborative research, something you will do throughout your career; 4) show you, in a way that no homework assignment can, the complexity and joy of doing real data analysis.  This project not be without pain -- <a href="https://politicalsciencereplication.wordpress.com/2013/05/14/nightmare-after-nightmare-students-trying-to-replicate-work/">Nightmare after nightmare: students trying to replicate work</a> -- but it will be worth it.<p>
 
+  <p>For the project, you must follow the <a href="#schedule">schedule</a> and meet certian <a href="#requirements">technical requirements</a>.</p>
 
   <p>Here are the five steps to the project:</p>
   <ol>
@@ -41,6 +42,9 @@
     <li>Do something new</li>
     <li>Have your work reproduced by a peer</li>
   </ol>
+
+
+
 
   <h2 id="pick">Pick a paper</h2>
 
@@ -72,40 +76,42 @@
       <li>For other ideas for how to add value, see <a href="http://gking.harvard.edu/files/gking/files/paperspub.pdf">item 8 in King 2006</a>.</li>
 
 
-    <h2>Have your work reproduced by a peer</h2>
-      Again, this should be easy because we are all on github and we are using reproducible practices.
+    <h2 id="peer2">Have your work reproduced by a peer</h2>
+      <p>Again, this should be easy because we are all on github and we are using reproducible practices.</p>
 
-    <h2>Tips for providing feedback</h2>
-      Twice in the course you will reproduce a peer’s work.  You feedback should be specific and constructive.
-      Are the variable names clear?
-      Is the logic of the code clear?
-      Does the code have lots of copying-and-pasting?
-      Should certain parts of the code be split into functions?
+    <h2 id="tips">Tips for providing feedback</h2>
+      <p>Twice in the course you will reproduce a peer's work and provide feedbac.  Your feedback should be constructive and specific.  Here are examples for the kinds of things could be included in the feedback.</p>
+      <ul>
+        <li>Are the variable names clear?</li>
+        <li>Is the logic of the code clear?</li>
+        <li>Does the code have lots of copying-and-pasting?</li>
+        <li>Are there parts of the code that should use loops or functions?</li>
+      </ul>
 
-
-    <h2>Technical requirements</h2>
+    <h2 id="requirements">Technical requirements</h2>
       <ul>
         <li>You must work with a partner.</li>
         <li>You must use RMarkdown or LaTeX + knitr.  This ensures that your code and your words are in the same place.</li>
         <li>You and your partner(s) must use github for project management and version control.</li>
        </ul>
 
-    <h2>Schedule</h2>
-      Week 1: look for a paper and a partner
-      Week 2: send proposed paper and a one paragraph justification to professor and preceptor
-      Week 3: prepare template for reproduction
-      Week 4: work on reproduction
-      Week 5: more work on reproduction
-      Week 6: submit reproduction
-      SPRING BREAK
-      Week 7: reproduce reproduction created by a peer, and write a memo offering suggestions for how to improve
-      Week 8: work on doing something new
-      Week 9: work on doing something new
-      Week 10: work on doing something new
-      Week 11: Submit your replication and extension
-      Week 12: reproduce reproduction and extension created by a peer, and write a memo offering suggestions for how to improve
-      Reading period: make improvements based on feedback
-      Dean’s Date (Tuesday, May 12): submit final product
+    <h2 id="schedule">Schedule</h2>
+      <ul>
+        <li>Week 1: look for a paper and a partner</li>
+        <li>Week 2: send proposed paper and a one paragraph justification to professor and preceptor</li>
+        <li>Week 3: prepare template for reproduction</li>
+        <li>Week 4: work on reproduction</li>
+        <li>Week 5: more work on reproduction</li>
+        <li>Week 6: submit reproduction</li>
+        <li>SPRING BREAK</li>
+        <li>Week 7: reproduce reproduction created by a peer, and write a memo offering suggestions for how to improve</li>
+        <li>Week 8: work on doing something new</li>
+        <li>Week 9: work on doing something new</li>
+        <li>Week 10: work on doing something new</li>
+        <li>Week 11: Submit your replication and extension</li>
+        <li>Week 12: reproduce reproduction and extension created by a peer, and write a memo offering suggestions for how to improve</li>
+        <li>Reading period: make improvements based on feedback</li>
+        <li>Dean’s Date (Tuesday, May 12): submit final product</li>
 
 
     </div><!-- /.container -->
