@@ -1,10 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <!--#include file="header.html"-->
 
 <body>
 
-  <div class="container">
+  <!--#include file="navbar.html"-->
 
-    <!--#include file="navbar.html"-->
+  <div class="container">
 
     <div class="jumbotron">
       <h2>Sociology 504: Advanced data analysis for the social sciences</h2>
@@ -149,18 +152,18 @@ By the end of the semester, you will be able to:
 <h3 name="01"><!--#echo var="01" -->, <small>2015-02-02</small></h3>
 Before class:
 <ul>
-  <li>none</li>
+  <li>none.</li>
 </ul>
 
 Optional after class:
 <ul>
-  <li>none</li>
+  <li>none.</li>
 </ul>
 
 <h3 name="02"><!--#echo var="02" --><small>, 2015-02-02</small></h3>
 Before class:
   <ul>
-    <li>no reading</li>
+    <li>none.</li>
   </ul>
 
 Optional after class:
@@ -214,7 +217,7 @@ Optional after class:
 <h3 name="05"><!--#echo var="05" --><small>, 2015-02-09</small></h3>
 Before class:
 <ul>
-  <li>Watch <a href="http://varianceexplained.org/RData/lessons/lesson2/">Visualizing Data Using ggplot2</a> by David Robinson</li>
+  <li>Watch <a href="http://varianceexplained.org/RData/lessons/lesson2/">Visualizing Data Using ggplot2</a> by David Robinson. <a href="#access" class="oa"></a></li>
     <ol>
     <li>Introduction (about 3 minutes)</li>
     <li>Scatter Plots (about 8 minutes)</li>
@@ -229,45 +232,47 @@ Before class:
 
 Optional after class:
 <ul>
-  <li></li>
+  <li>Slides from <a href="">Dawn Kauffman's class on ggplot2</a>. <a href="#access" class="oa"></a></li>
+  <li><a href="http://shinyapps.stat.ubc.ca/r-graph-catalog/">R Graph Catalogue</a> by Joanna Zhao and Jennifer Bryan. <a href="#access" class="oa"></a></li>
 </ul>
 
 <h3 name="06"><!--#echo var="06" --><small>, 2015-02-11</small></h3>
 Before class:
 <ul>
-  <li>Watch Matthew Mccullough's talk: <a href="http://git-scm.com/video/what-is-version-control">What is version control?</a> <a href="#access" class="oa"></a></li>
-  <li>Watch Mehan Jayasuriya talk: <a href="https://www.youtube.com/watch?v=PFwUHTE6mFc">Introduction to Git and GitHub</a>, Webcast. [Note: We will not be using all of the features of github.  The goal of this video is to give you a big picture overview.  I don’t expect you to understand everything in the video.  In class, we’ll focus on the parts that are most important for us.  Also, we will generally use RStudio rather than the terminal to interact with the git and github.] <a href="#access" class="oa"></a></li>
-  <li>Nice R Code's <a href="http://nicercode.github.io/git/">Introduction to version control using git</a>. <a href="#access" class="oa"></a></li>
+  <li>Watch Matthew Mccullough's talk: <a href="http://git-scm.com/video/what-is-version-control">What is version control?</a> <a href="#access" class="oa"></a>
+  </li>
+  <li>Watch Mehan Jayasuriya talk: <a href="https://www.youtube.com/watch?v=PFwUHTE6mFc">Introduction to Git and GitHub</a>, Webcast. [Note: We will not be using all of the features of github. The goal of this video is to give you a big picture overview.
+    I don’t expect you to understand everything in the video. In class, we’ll focus on the parts that are most important for us. Also, we will generally use RStudio rather than the terminal to interact with the git and github.]
+    <a href="#access" class="oa"></a>
+  </li>
+  <li>Nice R Code's <a href="http://nicercode.github.io/git/">Introduction to version control using git</a>. <a href="#access" class="oa"></a> </li>
 </ul>
 
 
 Optional after class:
 <ul>
-  <li>Hadley Wickham's Webinar: "Collaboration and time travel: version control with git, github and RStudio" (link coming soon). <a href="#access" class="oa"></a></li>
-  <li>Ram (2013) <a href="http://dx.doi.org/10.1186/1751-0473-8-7">Git can facilitate greater reproducibility and increased transparency in science.</a> <i>Source Code for Biology and Medicine</i>. <a href="#access" class="oa"></a></li>
-  <li>Watch <a href="https://www.youtube.com/watch?v=4XpnKHJAok8">Linus Torvalds talk about git</a> at Google in 2007. [Note: This is about the history and design philosophy of git; it is not about how to use git.] <a href="#access" class="oa"></a> </li>
-  <li>Github's <a href="https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf">git cheat sheet</a>. <a href="#access" class="oa"></a></li>
+  <li>Hadley Wickham's Webinar: "Collaboration and time travel: version control with git, github and RStudio" (link coming soon).
+    <a href="#access" class="oa"></a>
+  </li>
+  <li>Ram (2013) <a href="http://dx.doi.org/10.1186/1751-0473-8-7">Git can facilitate greater reproducibility and increased transparency in science.</a> <i>Source Code for Biology and Medicine</i>.
+    <a href="#access" class="oa"></a>
+  </li>
+  <li>Watch <a href="https://www.youtube.com/watch?v=4XpnKHJAok8">Linus Torvalds talk about git</a> at Google in 2007. [Note: This is about the history and design philosophy of git; it is not about how to use git.]
+    <a href="#access" class="oa"></a>
+  </li>
+  <li>Github's <a href="https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf">git cheat sheet</a>.
+    <a href="#access" class="oa"></a>
+  </li>
 </ul>
-
 
 <h3>More coming soon . . .</h3>
 
 
 
 
-  <div class="jumbotron">
-    <!--#include file="footer.html"-->
-  </div>
 
     </div> <!-- /container -->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>

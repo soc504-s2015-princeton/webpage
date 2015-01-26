@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--#include file="header.html"-->
+
+<body>
+
+  <!--#include file="navbar.html"-->
+
+  <div class="container">
+
+  <h2>Homework</h2>
+
+  There are weekly homework assignments.  They will be completed in R Markdown.
+  <ul>
+    <li><a href="">Homework 1</a></li>
+    </ul>
+
+  </div> <!-- /.container -->
+
+
+  <!--#include file="footer.html"-->
+
+</body>
+
+</html>
