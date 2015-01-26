@@ -267,13 +267,15 @@ Optional after class:
 
 <h3>More coming soon . . .</h3>
 
+<br />
+<br />
+<br />
 
 
-
+    <!--#include file="footer.html"-->
 
     </div> <!-- /container -->
 
-    <!--#include file="footer.html"-->
 
   </body>
 </html>

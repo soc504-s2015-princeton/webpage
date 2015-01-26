@@ -6,7 +6,7 @@
 <body>
 
   <!--#include file="navbar.html"-->
-  
+
   <div class="container">
 
     <h1>Replication and extension project</h1>
@@ -98,10 +98,14 @@
           <li>Dean’s Date (Tuesday, May 12): submit final product</li>
         </ul>
 
+
+      <br />
+        
+      <!--#include file="footer.html"-->
+
   </div> <!-- /.container -->
 
 
-  <!--#include file="footer.html"-->
 
 </body>
 

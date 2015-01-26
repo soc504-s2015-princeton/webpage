@@ -13,10 +13,13 @@
 
   There are weekly homework assignments.  They should be completed in R Markdown.  Links to assignments and solutions are coming soon.
 
+  <br />
+  <br />
+  <!--#include file="footer.html"-->
+
   </div> <!-- /.container -->
 
 
-  <!--#include file="footer.html"-->
 
 </body>
 
