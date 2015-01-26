@@ -98,9 +98,11 @@
           <li>Dean’s Date (Tuesday, May 12): submit final product</li>
         </ul>
 
+        <h2>Inspirations</h2>
+        This project was inspired by similar projects other classes.  I would like to thank Gary King, Brandon Stewart, Cristobal Young, Kosuke Imai, and Nicole Janz for their help in shaping this project.
 
       <br />
-        
+
       <!--#include file="footer.html"-->
 
   </div> <!-- /.container -->
