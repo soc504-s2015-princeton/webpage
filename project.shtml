@@ -38,12 +38,10 @@
 
         <h2 id="reproduce">Reproduce the results exactly</h2>
 
-        <p>You should be able to recreate every table and graph in the paper exactly. First, create a document with images of each table and each figure. Next, add the parts of the text where the authors describe how the results were generated. Finally,
-          create code that reproduces the results. This document will be highly structured. For example,</p>
+        <p>You should be able to re-create every table and graph in the paper exactly. First, create a document with images of each table and each figure. Next, add the parts of the text where the authors describe how the results were generated. Finally, create code that reproduces the results. This document will be highly structured. For example,</p>
         <ul>
-          <li>Table 1</li>
-          <li>Image</li>
-          <li>Text</li>
+          <li>Image of Table 1</li>
+          <li>Text describing how Table 1 was created</li>
           <li>Your code to reproduce Table 1</li>
         </ul>
 
@@ -54,17 +52,17 @@
         <p>You should somehow extend or improve the paper you are reproducing. Here are some examples of how you could do that:</p>
         <ul>
           <li>create different visualizations of their data and results.</li>
-          <li>extend the analysis in new ways (e.g., changing control variables).</li>
+          <li>extend the analysis by using different methods or asking different questions.</li>
           <li>re-run the same analysis on completely different data.</li>
           <li>take an old paper and update the analysis with newer data.</li>
-          <li>For other ideas for how to add value, see <a href="http://gking.harvard.edu/files/gking/files/paperspub.pdf">item 8 in King 2006</a>.</li>
+          <li>For other ideas on how to add value, see <a href="http://gking.harvard.edu/files/gking/files/paperspub.pdf">item 8 in King 2006</a>.</li>
         </ul>
 
         <h2 id="peer2">Have your work reproduced by a peer and receive feedback</h2>
         <p>Again, someone in the class will clone your repo and reproduce your work.  Also, they will send you some <a href="#feedback">helpful feedback</a>.</p>
 
         <h2 id="feedback">Tips for providing feedback</h2>
-        <p>Twice in the course you will reproduce a peer's work and provide feedbac. Your feedback should be constructive and specific. Here are examples for the kinds of things could be included in the feedback.</p>
+        <p>Twice in the course you will reproduce a peer's work and provide feedback. Your feedback should be constructive and specific. Here are examples for the kinds of things could be included in the feedback:</p>
         <ul>
           <li>Are the variable names clear?</li>
           <li>Is the logic of the code clear?</li>
@@ -74,7 +72,7 @@
 
         <h2 id="requirements">Technical requirements</h2>
         <ul>
-          <li>You must work with a partner.</li>
+          <li>You must work with a partner.  Groups of three are also allowed if needed.</li>
           <li>You must use RMarkdown or LaTeX + knitr. This ensures that your code and your words are in the same place.</li>
           <li>You and your partner(s) must use github for project management and version control.</li>
         </ul>
