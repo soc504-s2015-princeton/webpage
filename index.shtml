@@ -55,24 +55,24 @@ By the end of the semester, you will be able to:
 <h2>Schedule</h2>
 
 
-<!--#set var="01" value="01-Introduction" -->
-<!--#set var="02" value="02-Lab-Tranforming data with dplyr" -->
-<!--#set var="03" value="03-Doing data analysis: An introduction to software engineering" -->
-<!--#set var="04" value="04-Visualization" -->
-<!--#set var="05" value="05-Lab-Visualizing data with ggplot2" -->
-<!--#set var="06" value="06-Version control with git and github" -->
-<!--#set var="07" value="07-Regression and diagnostics" -->
-<!--#set var="08" value="08-Lab-Running regressions" -->
-<!--#set var="09" value="09-Multiple regression and diagnostics" -->
-<!--#set var="10" value="10-Dummy variables and interaction" -->
-<!--#set var="11" value="11-Lab-Regression diagnostics" -->
-<!--#set var="12" value="12-Dummy variables and interactions in practice" -->
-<!--#set var="13" value="13-Statistical inference for regression" -->
-<!--#set var="14" value="14-Lab-Simulating the data generating process" -->
-<!--#set var="15" value="15-Beyond star gazing" -->
-<!--#set var="16" value="16-Matrix approach to regression" -->
-<!--#set var="17" value="17-Lab-Regression, regression, regression" -->
-<!--#set var="18" value="18-Maximum likelihood approach to regression" -->
+<!--#set var="01" value="Introduction" -->
+<!--#set var="02" value="Lab-Tranforming data with dplyr" -->
+<!--#set var="03" value="Doing data analysis: An introduction to software engineering" -->
+<!--#set var="04" value="Visualization" -->
+<!--#set var="05" value="Lab-Visualizing data with ggplot2" -->
+<!--#set var="06" value="Version control with git and github" -->
+<!--#set var="07" value="Regression and diagnostics" -->
+<!--#set var="08" value="Lab-Running regressions" -->
+<!--#set var="09" value="Multiple regression and diagnostics" -->
+<!--#set var="10" value="Dummy variables and interaction" -->
+<!--#set var="11" value="Lab-Regression diagnostics" -->
+<!--#set var="12" value="Dummy variables and interactions in practice" -->
+<!--#set var="13" value="Statistical inference for regression" -->
+<!--#set var="14" value="Lab-Simulating the data generating process" -->
+<!--#set var="15" value="Beyond star gazing" -->
+<!--#set var="16" value="Matrix approach to regression" -->
+<!--#set var="17" value="Lab-Regression, regression, regression" -->
+<!--#set var="18" value="Maximum likelihood approach to regression" -->
 
 <table class="table">
   <th>Week</th>
