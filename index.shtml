@@ -149,7 +149,7 @@ By the end of the semester, you will be able to:
 <hr>
 <hr>
 
-<h3 name="01"><!--#echo var="01" -->, <small>2015-02-02</small></h3>
+<h3 id="01"><!--#echo var="01" -->, <small>2015-02-02</small></h3>
 Before class:
 <ul>
   <li>none.</li>
@@ -160,7 +160,7 @@ Optional after class:
   <li>none.</li>
 </ul>
 
-<h3 name="02"><!--#echo var="02" --><small>, 2015-02-02</small></h3>
+<h3 id="02"><!--#echo var="02" --><small>, 2015-02-02</small></h3>
 Before class:
   <ul>
     <li>none.</li>
@@ -175,7 +175,7 @@ Optional after class:
 <li>RStudio's <a href="http://rmarkdown.rstudio.com/RMarkdownCheatSheet.pdf">RMarkdown cheatsheet</a>. <a href="#access" class="oa"></a></li>
 </ul>
 
-<h3 name="03"><!--#echo var="03" --><small>, 2015-02-04</small></h3>
+<h3 id="03"><!--#echo var="03" --><small>, 2015-02-04</small></h3>
 Before class:
 <ul>
   <li>Gentzkow and Shapiro (2014). <a href="http://faculty.chicagobooth.edu/jesse.shapiro/research/CodeAndData.pdf">Code and Data for the Social Sciences: A Practitioner's Guide</a>. Working paper. <a href="#access" class="oa"></a></li>
@@ -196,7 +196,7 @@ Optional after class:
 <hr>
 <hr>
 
-<h3 name="04"><!--#echo var="04" --><small>, 2015-02-09</small></h3>
+<h3 id="04"><!--#echo var="04" --><small>, 2015-02-09</small></h3>
 Before class:
 <ul>
   <li>Healy and Moody (2014). <a href="http://kieranhealy.org/files/papers/data-visualization.pdf">Data visualization in sociology</a>. <i>Annual Review of Sociology</i>. <a href="#access" class="oa"></a></li>
@@ -214,7 +214,7 @@ Optional after class:
   <li>Wickham (2010). <a href="http://vita.had.co.nz/papers/layered-grammar.pdf">A layered grammar of graphics</a>. <i>Journal of Computational and Graphical Statistics</i>. <a href="#access" class="oa"></a></li>
 </ul>
 
-<h3 name="05"><!--#echo var="05" --><small>, 2015-02-09</small></h3>
+<h3 id="05"><!--#echo var="05" --><small>, 2015-02-09</small></h3>
 Before class:
 <ul>
   <li>Watch <a href="http://varianceexplained.org/RData/lessons/lesson2/">Visualizing Data Using ggplot2</a> by David Robinson. <a href="#access" class="oa"></a></li>
@@ -232,11 +232,11 @@ Before class:
 
 Optional after class:
 <ul>
-  <li>Slides from <a href="">Dawn Kauffman's class on ggplot2</a>. <a href="#access" class="oa"></a></li>
+  <li>Slides from <a href="http://opr.princeton.edu/workshops/201501/">Dawn Kauffman's class on ggplot2</a>. <a href="#access" class="oa"></a></li>
   <li><a href="http://shinyapps.stat.ubc.ca/r-graph-catalog/">R Graph Catalogue</a> by Joanna Zhao and Jennifer Bryan. <a href="#access" class="oa"></a></li>
 </ul>
 
-<h3 name="06"><!--#echo var="06" --><small>, 2015-02-11</small></h3>
+<h3 id="06"><!--#echo var="06" --><small>, 2015-02-11</small></h3>
 Before class:
 <ul>
   <li>Watch Matthew Mccullough's talk: <a href="http://git-scm.com/video/what-is-version-control">What is version control?</a> <a href="#access" class="oa"></a>
