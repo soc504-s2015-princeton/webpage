@@ -11,7 +11,22 @@
 
   <h2>Homework</h2>
 
-  There are weekly homework assignments.  They should be completed in R Markdown.  Links to assignments and solutions are coming soon.
+  <p>There are weekly homework assignments.  They should be completed in R Markdown.  Homework assignments are during Sunday at midnight.</p>
+  <br />
+  <br />
+
+  <table style="width:100%">
+    <tr>
+      <td><a href="https://github.com/soc504-s2015-princeton/hw1/blob/master/hw1.Rmd">Assigment 1</a></td>
+      <td>Due: Febrary 8, 2015</td>
+      <td>Solutions (coming soon)</td>
+    </tr>
+    <tr>
+      <td>Assignment 2 (coming soon)</td>
+      <td>Due: Febrary, 15, 2015</td>
+      <td>Solutions (coming soon)</td>
+    </tr>
+  </table>
 
   <br />
   <br />
