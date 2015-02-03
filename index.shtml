@@ -44,10 +44,12 @@ By the end of the semester, you will be able to:
 <p>There are three main types of assignments for students:</p>
 <ul>
   <li><b>Preparing for class:</b> For many classes there will be some reading (or video watching) that you must do before class.  I expect you to come to class 100% prepared.  I will assign a reasonable amount of stuff, and you must do it.  I will not spend valuable class time summarizing readings that you should have done before class.  Rather, we are going to use class time for more valuable learning activities.</li>
-  <li><b>Weekly homework:</b> Learning data analysis takes practice.  There will be weekly homework assignments, and these assigments are described in detail on the homework page.</li>
+  <li><b>Weekly homework:</b> Learning data analysis takes practice.  There will be weekly homework assignments, and these assigments are described in detail on the <a href="homework.shtml">homework page</a>.</li>
   <li><b>Replication and extension project:</b> Students will replicate and extend a published paper.  For more information see the <a href="project.shtml">project page</a>.</li>
 </ul>
 
+<h2>Github</h2>
+<p>All class materials are available from our <a href="https://github.com/soc504-s2015-princeton">class github page</a>.</p>
 
 <h2 id="access">Open access</h2>
 <p>I have marked open access materials with a <img src="images/open.png" height="12"> and closed access materials with a <img src="images/closed.png" height="12">.  If you do not have access to a university library, copies of many of the closed access articles can be found through <a href="http://scholar.google.com">Google Scholar</a href>.</p>
@@ -179,7 +181,7 @@ Optional after class:
 <h3 id="03"><!--#echo var="03" --><small>, 2015-02-04</small></h3>
 Before class:
 <ul>
-  <li>Gentzkow and Shapiro (2014). <a href="http://faculty.chicagobooth.edu/jesse.shapiro/research/CodeAndData.pdf">Code and Data for the Social Sciences: A Practitioner's Guide</a>. Working paper. <a href="#access" class="oa"></a></li>
+  <li>Gentzkow and Shapiro (2014). <a href="http://faculty.chicagobooth.edu/jesse.shapiro/research/CodeAndData.pdf">Code and Data for the Social Sciences: A Practitioner's Guide</a>. Mimeo. <a href="#access" class="oa"></a></li>
   <li>Tippmann (2014). <a href="http://www.nature.com/news/programming-tools-adventures-with-r-1.16609">Programming tools: Adventures with R</a href>. <i>Nature</i>. <a href="#access" class="oa"></a></li>
   <li><a href="https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml">Google's R Style Guide</a>. <a href="#access" class="oa"></a></li>
 </ul>
