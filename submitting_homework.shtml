@@ -1,138 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+<!--#include file="header.html"-->
 
-    <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+<body>
 
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+  <!--#include file="navbar.html"-->
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+  <div class="container">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
 
-  <body>
+  <h2>Submtting homework</h2>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+
+    <img src="images/homework_workflow.png" width="800"> <br />
+
+    Before doing this you will need to:
+    <ul>
+      <li>instal <a href="http://www.rstudio.com/products/rstudio/download/">R Studio</a href>; if you are using lotka you can skip this step (should be easy)</li>
+      <li>make sure that git, github, and R Studio are working together.  To do this you should follow Hadley Wickham's instructions for <a href="http://r-pkgs.had.co.nz/git.html#git-init">inital set-up</a href>. (could be hard)</li>
+      Here are a few tips for this last step:
+      <ul>
+        <li>If you are using lotka, you can skip the first step.  It already has git installed.</li>
+        <li>If you are using a Mac, you might be able to skip the first step.  Many already have git installed.</li>
+        <li>when you create an account on github, you should sign-up for the <a href="https://education.github.com/pack">student  developer pack</a href> as this will give you a free github micro account and some other cool stuff (should be easy)</li>
+        <li>If you are having trouble getting git and R Studio to work together Jenny Bryan's notes might help: <a href="https://stat545-ubc.github.io/git03_rstudio-meet-git.html">RStudio meet git</a href>.
+      </ul>
+    </ul>
+
+    <ol>
+      <li><mark>To start, fork the repository.</mark> [GITHUB]</li>
+
+        <img src="images/fork.png" width="800"> <br />
+
+        Tips:
+          <ul>
+            <li>Read more about <a href="https://guides.github.com/activities/forking/">forking</a href></li>
           </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
 
-    <div class="container">
+      <li><mark>Clone the repository to your computer.</mark> [RSTUDIO and GITHUB]</li>
 
+          <img src="images/clone_newproject.png" width="800"> <br />
 
-<h2> Submtting homework </h2>
+          <img src="images/clone_versioncontrol.png" width="800"> <br />
 
-Before doing this you will need to:
-<ul>
-  <li>instal <a href="http://www.rstudio.com/products/rstudio/download/">R Studio</a href>; if you are using lotka you can skip this step (should be easy)</li>
-  <li>make sure that git, github, and R Studio are working together.  To do this you should follow Hadley Wickham's instructions for <a href="http://r-pkgs.had.co.nz/git.html#git-init">inital set-up</a href>. (could be hard)</li>
-Here are a few tips for this last step:
-<ul>
-  <li>If you are using lotka, you can skip the first step.  It already has git installed.</li>
-  <li>If you are using a Mac, you might be able to skip the first step.  Many already have git installed.</li>
-  <li>when you create an account on github, you should sign-up for the <a href="https://education.github.com/pack">student  developer pack</a href> as this will give you a free github micro account and some other cool stuff (should be easy)</li>
-  <li>If you are having trouble getting git and R Studio to work together Jenny Bryan's notes might help: <a href="https://stat545-ubc.github.io/git03_rstudio-meet-git.html">RStudio meet git</a href>.
-</ul>
-</ul>
+          <img src="images/clone_git.png" width="800"> <br />
 
-<ol>
-  <li><mark>To start, fork the repository.</mark> [GITHUB]</li>
+          <img src="images/clone_get_address.png" width="800"> <br />
 
-<img src="fork.png" width="800"> <br />
+          <img src="images/clone_paste_address.png" width="800"> <br />
 
-Tips:
-<ul>
-  <li>Read more about <a href="https://guides.github.com/activities/forking/">forking</a href></li>
-</ul>
+          Tips:
+            <ul>
+              <li>Before cloning make sure all your R Studio projects are closed.</li>
+            </ul>
 
-  <li><mark>Clone the repository to your computer.</mark> [RSTUDIO and GITHUB]</li>
+      <li><mark>Modify the files and commit changes to complete your solution.  This is step where you actually do your homework!  This one should be the hardest one :) </mark> [RSTUDIO]</li>
 
-<img src="clone_newproject.png" width="800"> <br />
+          <img src="images/doing_homework.png" width="800"> <br />
 
-<img src="clone_versioncontrol.png" width="800"> <br />
+          <img src="images/commit_homework.png" width="800"> <br />
 
-<img src="clone_git.png" width="800"> <br />
-
-<img src="clone_get_address.png" width="800"> <br />
-
-<img src="clone_paste_address.png" width="800"> <br />
-
-Tips
-<ul>
-  <li>Before cloning make sure all your R Studio projects are closed.</li>
-</ul>
-
-    <li><mark>Modify the files and commit changes to complete your solution.  This is step where you actually do your homework!  This one should be the hardest one :) </mark> [RSTUDIO]</li>
-
-<img src="doing_homework.png" width="800"> <br />
-
-<img src="commit_homework.png" width="800"> <br />
-
-Tips
-<ul>
-  <li>Don't forget to commit your homework before pushing to github.</li>
-</ul>
+          Tips
+            <ul>
+              <li>Don't forget to commit your homework before pushing to github.</li>
+            </ul>
 
 
-    <li><mark>Push/sync the changes up to GitHub.</mark> [RSTUDIO]</li>
+      <li><mark>Push the changes up to GitHub.</mark> [RSTUDIO]</li>
 
-<img src="push_to_github.png" width="800"> <br />
+        <img src="images/push_to_github.png" width="800"> <br />
 
-    <li><mark>Create a pull request on the original repository to turn in the assignment.</mark> [GITHUB]</li>
+      <li><mark>Create a pull request on the original repository to turn in the assignment.</mark> [GITHUB]</li>
 
-<img src="pull_request_screen.png" width="800"> <br />
+        <img src="images/pull_request_screen.png" width="800"> <br />
 
-<img src="pull_request_info.png" width="800"> <br />
+        <img src="images/pull_request_info.png" width="800"> <br />
 
-<img src="pull_request_complete.png" width="800"> <br />
+        <img src="images/pull_request_complete.png" width="800"> <br />
 
-</ol>
+      </ol>
 
-All done!
+      All done!
+      <!--#include file="footer.html"-->
 
+  </div>
+  <!-- /container -->
 
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
 </html>
