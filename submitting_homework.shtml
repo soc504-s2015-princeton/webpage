@@ -10,12 +10,13 @@
   <div class="container">
 
 
-  <h2>Submtting homework</h2>
+    <h1>Submtting homework</h1>
 
 
-    <img src="images/homework_workflow.png" width="800"> <br />
+    <img src="images/homework_workflow.png" width="500">
 
-    Before doing this you will need to:
+
+    <br /> Before doing this you will need to:
     <ul>
       <li>instal <a href="http://www.rstudio.com/products/rstudio/download/">R Studio</a href>; if you are using lotka you can skip this step (should be easy)</li>
       <li>make sure that git, github, and R Studio are working together.  To do this you should follow Hadley Wickham's instructions for <a href="http://r-pkgs.had.co.nz/git.html#git-init">inital set-up</a href>. (could be hard)</li>
@@ -28,60 +29,154 @@
       </ul>
     </ul>
 
-    <ol>
-      <li><mark>To start, fork the repository.</mark> [GITHUB]</li>
+    <h2>1) fork the repository to your account. [GITHUB]</h2>
 
-        <img src="images/fork.png" width="800"> <br />
+      <img src="images/fork.png" width="800">
 
-        Tips:
-          <ul>
-            <li>Read more about <a href="https://guides.github.com/activities/forking/">forking</a href></li>
-          </ul>
+      <br />
+      <br />
+      <br />
 
-      <li><mark>Clone the repository to your computer.</mark> [RSTUDIO and GITHUB]</li>
+      <img src="images/fork_to_your_account.png" width="800">
 
-          <img src="images/clone_newproject.png" width="800"> <br />
+      <br />
+      <br />
+      <br />
 
-          <img src="images/clone_versioncontrol.png" width="800"> <br />
 
-          <img src="images/clone_git.png" width="800"> <br />
+      Tips:
+        <ul>
+          <li>Read more about <a href="https://guides.github.com/activities/forking/">forking</a href></li>
+        </ul>
 
-          <img src="images/clone_get_address.png" width="800"> <br />
+     <h2>2) Clone the repository to your computer. [RSTUDIO and GITHUB]</h2>
 
-          <img src="images/clone_paste_address.png" width="800"> <br />
+          <img src="images/clone_newproject.png" width="800">
+
+          <br />
+          <br />
+          <br />
+
+          <img src="images/clone_versioncontrol.png" width="800">
+
+          <br />
+          <br />
+          <br />
+
+          <img src="images/clone_git.png" width="800">
+
+          <br />
+          <br />
+          <br />
+
+          <img src="images/clone_get_address.png" width="800">
+
+          <br />
+          <br />
+          <br />
+
+          <img src="images/clone_paste_address.png" width="800">
+
+          <br />
+          <br />
+          <br />
 
           Tips:
             <ul>
               <li>Before cloning make sure all your R Studio projects are closed.</li>
             </ul>
 
-      <li><mark>Modify the files and commit changes to complete your solution.  This is step where you actually do your homework!  This one should be the hardest one :) </mark> [RSTUDIO]</li>
+      <h2>3) Modify the files and commit changes to complete your solution.  This is step where you actually do your homework!  This one should be the hardest one :) [RSTUDIO]</h2>
 
-          <img src="images/doing_homework.png" width="800"> <br />
+      <br />
+      <br />
+      <br />
 
-          <img src="images/commit_homework.png" width="800"> <br />
+        <img src="images/open_homework.png" width="800">
 
-          Tips
-            <ul>
-              <li>Don't forget to commit your homework before pushing to github.</li>
-            </ul>
+        <br />
+        <br />
+        <br />
+
+        <img src="images/doing_homework.png" width="800">
+
+        <br />
+        <br />
+        <br />
+
+        <img src="images/commit_homework.png" width="800">
+
+        <br />
+        <br />
+        <br />
+
+        <img src="images/commit_homework_2.png" width="800">
+
+        <br />
+        <br />
+        <br />
+
+        Tips:
+        <ul>
+          <li>Don't forget to commit your homework before pushing to github.</li>
+        </ul>
 
 
-      <li><mark>Push the changes up to GitHub.</mark> [RSTUDIO]</li>
+      <h2>4) Push the changes up to GitHub. [RSTUDIO]</h2>
 
-        <img src="images/push_to_github.png" width="800"> <br />
+      <br />
+      <br />
+      <br />
 
-      <li><mark>Create a pull request on the original repository to turn in the assignment.</mark> [GITHUB]</li>
+      <img src="images/push_to_github.png" width="800"> <br />
 
-        <img src="images/pull_request_screen.png" width="800"> <br />
+      <br />
+      <br />
+      <br />
 
-        <img src="images/pull_request_info.png" width="800"> <br />
 
-        <img src="images/pull_request_complete.png" width="800"> <br />
+      <h2>5) Create a pull request on the original repository to turn in the assignment. [GITHUB]</h2>
 
-      </ol>
+      <br />
+      <br />
+      <br />
 
-      All done!
+      <img src="images/pull_request_start.png" width="800">
+
+      <br />
+      <br />
+      <br />
+
+      <img src="images/pull_request_button.png" width="800">
+
+      <br />
+      <br />
+      <br />
+
+      <img src="images/pull_request_info.png" width="800">
+
+      <br />
+      <br />
+      <br />
+
+      <img src="images/pull_request_complete.png" width="800">
+
+      <br />
+      <br />
+      <br />
+
+      <img src="images/all_done.png" width="800">
+
+      <br />
+      <br />
+      <br />
+
+      <h2>All done!</h2>
+
+      <br />
+      <br />
+      <br />
+
       <!--#include file="footer.html"-->
 
   </div>
