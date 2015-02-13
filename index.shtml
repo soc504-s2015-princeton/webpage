@@ -248,15 +248,15 @@ Before class:
     I don’t expect you to understand everything in the video. In class, we’ll focus on the parts that are most important for us. Also, we will generally use RStudio rather than the terminal to interact with the git and github.]
     <a href="#access" class="oa"></a>
   </li>
-  <li>Nice R Code's <a href="http://nicercode.github.io/git/">Introduction to version control using git</a>. <a href="#access" class="oa"></a> </li>
+  <li>Hadley Wickham's Webinar: <a href="https://vimeo.com/119403805">Collaboration and time travel: version control with git, github and RStudio</a>. <a href="#access" class="oa"></a>
+  </li>
+  <li>Hadley Wickham. (nd) Chapter on <a href="http://r-pkgs.had.co.nz/git.html">git and github</a> in <a href="http://r-pkgs.had.co.nz/">R Packages</a>. <a href="#access" class="oa"></a></li>
 </ul>
 
 
 Optional after class:
 <ul>
-  <li>Hadley Wickham's Webinar: "Collaboration and time travel: version control with git, github and RStudio" (link coming soon).
-    <a href="#access" class="oa"></a>
-  </li>
+  <li>Nice R Code's <a href="http://nicercode.github.io/git/">Introduction to version control using git</a>. <a href="#access" class="oa"></a> </li>
   <li>Ram (2013) <a href="http://dx.doi.org/10.1186/1751-0473-8-7">Git can facilitate greater reproducibility and increased transparency in science.</a> <i>Source Code for Biology and Medicine</i>.
     <a href="#access" class="oa"></a>
   </li>
