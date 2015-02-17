@@ -101,9 +101,9 @@ By the end of the semester, you will be able to:
   </tr>
   <tr>
     <td>4</td>
-    <td><!--#echo var="10" --></td>
-    <td><!--#echo var="11" --></td>
-    <td><!--#echo var="12" --></td>
+    <td><a href="#10"><!--#echo var="10" --></a></td>
+    <td><a href="#11"><!--#echo var="11" --></a></td>
+    <td><a href="#12"><!--#echo var="12" --></a></td>
   </tr>
   <tr>
     <td>5</td>
@@ -310,6 +310,8 @@ Optional after class:
   <li>None.</li>
 </ul>
 
+<hr>
+<hr>
 
 <h3 id="10"><!--#echo var="10" --><small>, 2015-02-23</small></h3>
 Before class:
