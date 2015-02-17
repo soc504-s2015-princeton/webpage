@@ -80,7 +80,7 @@
         <h2 id="schedule">Schedule</h2>
         <ul>
           <li>Week 1: look for a paper and a partner</li>
-          <li>End of Week 2 (Sunday, Feb 15, 2015): post to Piazza a proposed paper and a one paragraph justification</li>
+          <li>End of Week 2 (Sunday, Feb 15, 2015): post to Piazza a <a href="id=proposal">proposal</a> for your project</li>
           <li>Week 3: prepare template for reproduction</li>
           <li>Week 4: work on reproduction</li>
           <li>Week 5: more work on reproduction</li>
@@ -95,6 +95,24 @@
           <li>Reading period: make improvements based on feedback</li>
           <li>Dean’s Date (Tuesday, May 12): submit final product</li>
         </ul>
+
+        <h2 id="proposal">Proposal</h2>
+
+        <p>You project proposal must be written in a structured format and must include each of the following elements:</p>
+
+        <ol>
+          <li>Citaiton information for the paper you want to reproduce</li>
+          <li>Summary of main results of the paper</li>
+          <li>List of main statistical methods used</li>
+          <li>List of datasets used</li>
+          <li>Summary of data availability and data access plan</li>
+          <li>Summary of code availability (code availability is not required)</li>
+          <li>List of ideas for how the paper could be improved or extended</li>
+          <li>Short explanation for why you and your partner picked this paper</li>
+          <li>pdf copy of the paper</li>
+        </ol>
+
+        <p>If you do not provide us with all of those elements, it will be impossible for us to give you good advice.</p>
 
         <h2>Inspirations</h2>
         This project was inspired by similar projects other classes.  I would like to thank Gary King, Brandon Stewart, Cristobal Young, Kosuke Imai, and Nicole Janz for their help in shaping this project.
