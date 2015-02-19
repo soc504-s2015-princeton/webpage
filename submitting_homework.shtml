@@ -12,6 +12,13 @@
 
     <h1>Submtting homework</h1>
 
+    <p>When submitting your homework, you should submit both:</p>
+      <ol>
+        <li>R Markdown file</li>
+        <li>knitted HTML file</li>
+      </ol>
+
+     <p>If your homework does not knit, it is very hard for us to give you helpful feedback.  When you commit your the html version of your homeowrk, RStudio may warn you about the size of it.  However, you can ignore those warnings; we have not had problems with it in the past.</p>
 
     <img src="images/homework_workflow.png" width="500">
 
