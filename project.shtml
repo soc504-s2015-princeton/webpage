@@ -29,13 +29,20 @@
 
         <h2 id="pick">Pick a paper</h2>
 
-        <p>You should pick a paper in an area that is interesting to you. Some people recommend that the paper be published recently and in a top journal in the field. Also, the paper should use methods related to those that we are going to learn in the
-          course.</p>
-        <p>Since this is the first time I’ve tried this project, I'm going to require that the paper you select has data already available. I don't want you to spend your time emailing with authors. That is not the kind of learning experience I’m hoping
-          to create with this project. Also, I strongly recommend that you pick a paper where the code is already available. To be clear, you should not use this code. But, having this code available means that you should be able to ultimately reproduce
+        <p>You should pick a paper in an area that is interesting to you. Some people recommend that the paper be published recently and in a top journal in the field. Also, the paper should use methods related to those that we are going to learn in the course.</p>
+        <p>Since this is the first time I’ve tried this project, I'm going to require that the paper you select has data already available. I don't want you to spend your time emailing with authors. That is not the kind of learning experience I’m hoping to create with this project. Also, I strongly recommend that you pick a paper where the code is already available. To be clear, you should not use this code. But, having this code available means that you should be able to ultimately reproduce
           the results in the published paper.</p>
-        <p>If you are looking for examples of papers that have been replicated in the past, check out the <a href="http://projects.iq.harvard.edu/gov2001/data">dataverse for Harvard's Gov2001 course</a>.</p>
+        <p>If you are looking for papers to replicate here are some strategies that you could use:</p>
+        <ul>
+          <li>browse examples of papers that have been replicated by students in the past: <a href="http://projects.iq.harvard.edu/gov2001/data">dataverse for Harvard's Gov2001 course</a> and <a href="https://thedata.harvard.edu/dvn/dv/CambridgeReplication">dataverse for Combridge Replcation Workshop</a>.</li>
+          <li>start with a large, public data set and look for papers that use it.  For example, here are lists of papers that use <a href="http://www.cpc.unc.edu/projects/addhealth/publications">Add Health</a> and <a href="http://crcw.princeton.edu/publications/publications.asp">Fragile Families</a>.</li>
+           <li>browse data archives.  Some examples are: <a href="http://dataverse.org/">dataverse</a>, <a href="http://isps.yale.edu/research/data">ISPS data archive</a>, <a href="http://opr.princeton.edu/archive/">OPR data archive</a>, <a href="http://www.tessexperiments.org/previousstudies.html">TESS</a>, and <a href="http://www.icpsr.umich.edu/icpsrweb/ICPSR/">ICPSR</a>.</li>
+           <li>think about papers that you have read in your classes that you really enjoyed (or thought were wrong).</li>
+           <li>Talk to your advisor, advanced graduate students, and your classmates.</li>
+        </ul>
 
+        <p>When picking a paper it may be hard for you to tell if the methods will be far beyond what will be covered in class.  When in doubt, post a question to Piazza.</p>
+        
         <h2 id="reproduce">Reproduce the results exactly</h2>
 
         <p>You should be able to re-create every table and graph in the paper exactly. First, create a document with images of each table and each figure. Next, add the parts of the text where the authors describe how the results were generated. Finally, create code that reproduces the results. This document will be highly structured. For example,</p>
