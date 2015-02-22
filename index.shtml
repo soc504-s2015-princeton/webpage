@@ -67,7 +67,7 @@ By the end of the semester, you will be able to:
 <!--#set var="08" value="Lab-Running regressions" -->
 <!--#set var="09" value="Multiple regression and diagnostics" -->
 <!--#set var="10" value="Dummy variables and interaction" -->
-<!--#set var="11" value="Lab-Regression diagnostics" -->
+<!--#set var="11" value="Lab-Dummy variables and interactions" -->
 <!--#set var="12" value="Dummy variables and interactions in practice" -->
 <!--#set var="13" value="Statistical inference for regression" -->
 <!--#set var="14" value="Lab-Simulating the data generating process" -->
@@ -355,6 +355,13 @@ Optional after class:
 <br />
 <br />
 <br />
+
+<!-- <li>Nunzo, R. (2014) <a href="http://www.nature.com/news/scientific-method-statistical-errors-1.14700">Scientific method: Statistical errors</a> <i>Nature</i>.</li> -->
+<!-- <li>Simmons, J. et al. (2014) <a href="http://pss.sagepub.com/content/22/11/1359.long">False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant.</a> <i>Psyhcological Science</i>. </li> -->
+<!-- <li>King, G. Tomz, M., and Wittenberg, J. (2000). <a href="http://www.jstor.org/stable/2669316">Making the Most of Statistical Analyses: Improving Interpretation and Presentation.</a href> <i>American Journal of Political Science</i>, 44(2):341-355. <a href="#access"><img src="closed.png" height="12"></a href></li> -->
+<!-- <li>Ward, M.D., Greenhill, B.D., and Bakke, K.M. (2010). <a href="http://dx.doi.org/10.1177/0022343309356491">The perils of policy by p-value: Predicting civil conflicts.</a href> <i>Journal of Peace Research</i>, 47(4):363-375. <a href="#access"><img src="open.png" height="12"></a href></li> -->
+<!-- <li>Cohen, J. (1994). <a href="http://dx.doi.org/10.1037/0003-066X.49.12.997">The earth is round (p < .05)</a> <i>American Psychologist</i>.</li>
+<!-- <li>Stuart, E. (2010) <a href="http://dx.doi.org/10.1214/09-STS313">Matching Methods for Causal Inference: A Review and a Look Forward</a> <i>Statistical Science</i>.</li> -->
 
 
     <!--#include file="footer.html"-->
