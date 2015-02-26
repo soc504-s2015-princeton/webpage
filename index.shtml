@@ -70,10 +70,10 @@ By the end of the semester, you will be able to:
 <!--#set var="11" value="Lab-Dummy variables and interactions" -->
 <!--#set var="12" value="Dummy variables and interactions in practice" -->
 <!--#set var="13" value="Statistical inference for regression" -->
-<!--#set var="14" value="Lab-Simulating the data generating process" -->
+<!--#set var="14" value="Lab-TBA" -->
 <!--#set var="15" value="Beyond star gazing" -->
 <!--#set var="16" value="Matrix approach to regression" -->
-<!--#set var="17" value="Lab-Regression, regression, regression" -->
+<!--#set var="17" value="Lab-TBA" -->
 <!--#set var="18" value="Maximum likelihood approach to regression" -->
 
 <table class="table">
@@ -342,6 +342,88 @@ Before class:
 <ul>
   <li>Brambor, T., Clark, W.R., and Golder, M. (2006). <a href="http://dx.doi.org/10.1093/pan/mpi014">Understanding Interaction Models: Improving Empirical Analyses.</a> <i>Political Analysis</i>. <a href="#access" class="ca"></a></li>
   <li>Greenman, E. and Xie, Y. (2008). <a href="http://www.jstor.org/stable/20430793">Double Jeopardy? The Interaction of Gender and Race on Earning in the United States.</a> <i>Social Forces</i>. <a href="#access" class="ca"></a></li>
+</ul>
+
+
+Optional after class:
+<ul>
+  <li>None.</li>
+</ul>
+
+
+<h3 id="13"><!--#echo var="13" --><small>, 2015-03-02</small></h3>
+Before class:
+<ul>
+  <li>Fox, Chapter 6. (Available from Blackboard) <a href="#access" class="ca"></a></li>
+  <li>Berk, Chapter 4 (skip Section 4.6). (Available from Blackboard) <a href="#access" class="ca"></a></li>
+</ul>
+
+
+Optional after class:
+<ul>
+  <li>None.</li>
+</ul>
+
+<h3 id="14"><!--#echo var="14" --><small>, 2015-03-02</small></h3>
+Before class:
+<ul>
+  <li>None.</li>
+</ul>
+
+
+Optional after class:
+<ul>
+  <li>None.</li>
+</ul>
+
+<h3 id="15"><!--#echo var="15" --><small>, 2015-03-04</small></h3>
+Before class:
+<ul>
+  <li>Nunzo, R. (2014) <a href="http://www.nature.com/news/scientific-method-statistical-errors-1.14700">Scientific method: Statistical errors</a> <i>Nature</i>. <a href="#access" class="ca"></a></li>
+  <li>Cohen, J. (1994). <a href="http://dx.doi.org/10.1037/0003-066X.49.12.997">The earth is round (p < .05)</a> <i>American Psychologist</i>. <a href="#access" class="ca"></a></li>
+  <li>Simmons, J. et al. (2014) <a href="http://pss.sagepub.com/content/22/11/1359.long">False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant.</a> <i>Psychological Science</i>. <a href="#access" class="ca"></a></li>
+  <li>King, G. Tomz, M., and Wittenberg, J. (2000). <a href="http://www.jstor.org/stable/2669316">Making the Most of Statistical Analyses: Improving Interpretation and Presentation.</a href> <i>American Journal of Political Science</i>. <a href="#access" class="ca"></a></li>
+  <li>Ward, M.D., Greenhill, B.D., and Bakke, K.M. (2010). <a href="http://dx.doi.org/10.1177/0022343309356491">The perils of policy by p-value: Predicting civil conflicts.</a href> <i>Journal of Peace Research</i>. <a href="#access" class="oa"></a></li>
+</ul>
+
+
+Optional after class:
+<ul>
+  <li>None.</li>
+</ul>
+
+<hr>
+<hr>
+
+<h3 id="16"><!--#echo var="16" --><small>, 2015-03-09</small></h3>
+Before class:
+<ul>
+  <li>Fox, <a href="http://socserv.socsci.mcmaster.ca/jfox/Books/Applied-Regression-2E/Appendices.pdf">Appendix B.1.1 and Appendix B.1.2: Matricies.</a> <a href="#access" class="oa"></a></li>
+  <li>Fox, Chapter 9, Sections: 9.1 - 9.2. (skip sections 9.1.1 and 9.1.2). (Available on blackboard). <a href="#access" class="ca"></a></li>
+</ul>
+
+
+Optional after class:
+<ul>
+  <li>None.</li>
+</ul>
+
+<h3 id="17"><!--#echo var="17" --><small>, 2015-03-09</small></h3>
+Before class:
+<ul>
+  <li>None.</li>
+</ul>
+
+
+Optional after class:
+<ul>
+  <li>None.</li>
+</ul>
+
+<h3 id="18"><!--#echo var="18" --><small>, 2015-03-11</small></h3>
+Before class:
+<ul>
+  <li>Fox, Chapter 9, Sections: 9.3 - 9.5. (Available on blackboard).</li>
 </ul>
 
 
