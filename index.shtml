@@ -381,7 +381,7 @@ Optional after class:
 <h3 id="15"><!--#echo var="15" --><small>, 2015-03-04</small></h3>
 Before class:
 <ul>
-  <li>Nunzo, R. (2014) <a href="http://www.nature.com/news/scientific-method-statistical-errors-1.14700">Scientific method: Statistical errors</a> <i>Nature</i>. <a href="#access" class="ca"></a></li>
+  <li>Nunzo, R. (2014) <a href="http://www.nature.com/news/scientific-method-statistical-errors-1.14700">Scientific method: Statistical errors</a> <i>Nature</i>. <a href="#access" class="oa"></a></li>
   <li>Cohen, J. (1994). <a href="http://dx.doi.org/10.1037/0003-066X.49.12.997">The earth is round (p < .05)</a> <i>American Psychologist</i>. <a href="#access" class="ca"></a></li>
   <li>Simmons, J. et al. (2014) <a href="http://pss.sagepub.com/content/22/11/1359.long">False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant.</a> <i>Psychological Science</i>. <a href="#access" class="ca"></a></li>
   <li>King, G. Tomz, M., and Wittenberg, J. (2000). <a href="http://www.jstor.org/stable/2669316">Making the Most of Statistical Analyses: Improving Interpretation and Presentation.</a href> <i>American Journal of Political Science</i>. <a href="#access" class="ca"></a></li>
@@ -391,7 +391,11 @@ Before class:
 
 Optional after class:
 <ul>
-  <li>None.</li>
+  <li>Hauer (2004). <a href="http://dx.doi.org/10.1016/S0001-4575(03)00036-8">The harm done by tests of significance</a> <i>Accident Analysis and Prevention</i>. <a href="#access" class="ca"></a></li>
+  <li>Fidler and Loftus (2009). <a href="http://dx.doi.org/10.1027/0044-3409.217.1.27">Why Figures with Error Bars Should Replace p Values: Some Conceptual Arguments and Empirical Demonstrations.</a> <i>Journal of Psychology</i>. <a href="#access" class="ca"></a></li>
+  <li>Trafimow and Marks (2015). <a href="http://dx.doi.org/10.1080/01973533.2015.1012991">Editorial</a> <i>Basic and Applied Social Psychology</i>. <a href="#access" class="oa"></a></li>
+  <li>Greenland and Poole (2013). <a href="http://dx.doi.org/10.1097/EDE.0b013e3182785741">Living with p values: resurrecting a Bayesian perspective on frequentist statistics.</a> <i>Epidemiology</i>. <a href="#access" class="ca"></a></li>
+  <li>Gelman (2013). <a href="http://www.stat.columbia.edu/~gelman/research/published/pvalues3.pdf">P values and statistical practice</a> <i>Epidemiology</i>. <a href="#access" class="oa"></a></li>
 </ul>
 
 <hr>
