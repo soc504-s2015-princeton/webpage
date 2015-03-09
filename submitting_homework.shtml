@@ -91,6 +91,7 @@
           Tips:
             <ul>
               <li>Before cloning make sure all your R Studio projects are closed.</li>
+              <li>Make sure that you have cloaned the forked repositoty not the original repository.  You will not be able to push to the original repository.</li>
             </ul>
 
       <h2>3) Modify the files and commit changes to complete your solution.  This is step where you actually do your homework!  This one should be the hardest one :) [RSTUDIO]</h2>
