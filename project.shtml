@@ -42,15 +42,20 @@
         </ul>
 
         <p>When picking a paper it may be hard for you to tell if the methods will be far beyond what will be covered in class.  When in doubt, post a question to Piazza.</p>
-        
+
         <h2 id="reproduce">Reproduce the results exactly</h2>
 
-        <p>You should be able to re-create every table and graph in the paper exactly. First, create a document with images of each table and each figure. Next, add the parts of the text where the authors describe how the results were generated. Finally, create code that reproduces the results. This document will be highly structured. For example,</p>
+        <p>You should be able to re-create every table and graph in the paper. At this point, however, you should not spend to much time on layout.  So, if hte figure has a lengend on top and your legend is on the side that is fine, as long as the results clearly match.</p>
+
+        <p>Begin your replication by creating a document with images of each table and each figure. Next, add the parts of the text where the authors describe how the results were generated. Finally, create code that reproduces the results. This document will be highly structured. For example,</p>
         <ul>
           <li>Image of Table 1</li>
           <li>Text describing how Table 1 was created</li>
           <li>Your code to reproduce Table 1</li>
         </ul>
+
+        <p>There does not need to be any theory or literature review in this document.  It is jsut about reproducing the results.</p>
+
 
         <h2 id="peer1">Have your duplication reproduced by a peer and receive feedback</h2>
         <p>Someone in the class will clone your repo and reproduce your reproduction.  Also, they will send you some <a href="#feedback">helpful feedback</a>.</p>
