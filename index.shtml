@@ -76,11 +76,17 @@ By the end of the semester, you will be able to:
 <!--#set var="17" value="Lab-Reproduction studio" -->
 <!--#set var="18" value="Maximum likelihood approach to regression" -->
 <!--#set var="19" value="Causal inference and potential outcomes" -->
-<!--#set var="20" value="Lab-" -->
+<!--#set var="20" value="Lab-Turning tables into graphs" -->
 <!--#set var="21" value="Causal graphs" -->
 <!--#set var="22" value="Conditioning and matching for causal inference" -->
-<!--#set var="23" value="Lab-" -->
-<!--#set var="24" value="Instrumental variables" -->
+<!--#set var="23" value="Lab-Turning tables into graphs" -->
+<!--#set var="24" value="Regression, causal inference, and shoe leather" -->
+<!--#set var="25" value="Logit and probit models for categorical response variables" -->
+<!--#set var="26" value="Lab-Working with logit and probit coefficients" -->
+<!--#set var="27" value="Logit and probit models: Not as simple as you thought" -->
+<!--#set var="28" value="Models for polytomous data" -->
+<!--#set var="29" value="Lab-Working with models for polytomous data" -->
+<!--#set var="30" value="Generalized linear model and models for count data" -->
 
 
 
@@ -131,19 +137,27 @@ By the end of the semester, you will be able to:
   </tr>
   <tr>
     <td>7</td>
-    <td colspan=3 align="center">Causal inference: potential outcomes model, graphical models</td>
+      <td><a href="#19"><!--#echo var="19" --></a></td>
+      <td><a href="#20"><!--#echo var="20" --></a></td>
+      <td><a href="#21"><!--#echo var="21" --></a></td>
   </tr>
   <tr>
     <td>8</td>
-    <td colspan=3 align="center">Causal inference: Matching, Instrumental variables</td>
+      <td><a href="#22"><!--#echo var="22" --></a></td>
+      <td><a href="#23"><!--#echo var="23" --></a></td>
+      <td><a href="#24"><!--#echo var="24" --></a></td>
   </tr>
   <tr>
     <td>9</td>
-    <td colspan=3 align="center">Logistic regression</td>
+      <td><a href="#25"><!--#echo var="25" --></a></td>
+      <td><a href="#26"><!--#echo var="26" --></a></td>
+      <td><a href="#27"><!--#echo var="27" --></a></td>
   </tr>
   <tr>
     <td>10</td>
-    <td colspan=3 align="center">Generalized linear model</td>
+      <td><a href="#28"><!--#echo var="28" --></a></td>
+      <td><a href="#29"><!--#echo var="29" --></a></td>
+      <td><a href="#30"><!--#echo var="30" --></a></td>
   </tr>
   <tr>
     <td>11</td>
@@ -457,14 +471,10 @@ Before class:
 </ul>
 
 
-Optional after class:
-<ul>
-</ul>
-
 <h3 id="20"><!--#echo var="20" --><small>, 2015-03-23</small></h3>
 Before class:
 <ul>
-  <li>None.</li>
+  <li>Kastellec and Leoni (2007). <a href="http://dx.doi.org/10.1017/S1537592707072209">Using Graphs Instead of Tables in Political Science.</a href> <i>Perspectives on Politics</i>. <a href="#access" class="ca"></a> [see also the <a href="http://tables2graphs.com/doku.php">code repository</a>] <a href="#access" class="oa"></a></li>
 </ul>
 
 
@@ -474,10 +484,9 @@ Before class:
   <li>Mogran and Winship (2015) <a href="http://www.amazon.com/gp/product/1107694167/">Counterfactuals and Causal Inference</a>: Chapter 3 (Causal graphs). (Available from Blackboard)</li>
 </ul>
 
+<hr>
+<hr>
 
-Optional after class:
-<ul>
-</ul>
 
 <h3 id="22"><!--#echo var="22" --><small>, 2015-03-30</small></h3>
 Before class:
@@ -485,11 +494,11 @@ Before class:
   <li>Mogran and Winship (2015) <a href="http://www.amazon.com/gp/product/1107694167/">Counterfactuals and Causal Inference</a>: Chapter 4 (Models of causal exposure and identification criteria for condition estimators) and Chapter 5 (Matching estimators of causal effects). (Available from Blackboard)</li>
 </ul>
 
-
 Optional after class:
 <ul>
-  <li>Stuart, E. (2010) <a href="http://dx.doi.org/10.1214/09-STS313">Matching Methods for Causal Inference: A Review and a Look Forward</a> <i>Statistical Science</i>.</li>
-
+  <li>Stuart (2010) <a href="http://dx.doi.org/10.1214/09-STS313">Matching Methods for Causal Inference: A Review and a Look Forward</a> <i>Statistical Science</i>.</li>
+  <li>Harding (2003). <a href="http://www.jstor.org/stable/10.1086/379217">Counterfactual Models of Neighborhood Effects: The Effect of Neighborhood Poverty on Dropping Out and Teenage Pregnancy.</a> <i>American Journal of Sociology</i>.</li>
+  <li>Arceneaux, Gerber, and Green (2010). <a href="http://dx.doi.org/10.1177/0049124110378098">A Cautionary Note on the Use of Matching to Estimate Causal Effects: An Empirical Example Comparing Matching Estimates to an Experimental Benchmark.</a> <i>Sociological Methods & Research</i>. </li>
 </ul>
 
 <h3 id="23"><!--#echo var="23" --><small>, 2015-03-30</small></h3>
@@ -499,19 +508,68 @@ Before class:
 </ul>
 
 
-Optional after class:
-<ul>
-  <li>None.</li>
-</ul>
-
 <h3 id="24"><!--#echo var="24" --><small>, 2015-04-01</small></h3>
 Before class:
 <ul>
   <li>Mogran and Winship (2015) <a href="http://www.amazon.com/gp/product/1107694167/">Counterfactuals and Causal Inference</a>: Chapter 6 (Regression estimators of causal effects). (Available from Blackboard)</li>
-  <li>Cornfield, J. et al. (1959). "Smoking and lung cancer: Recent evidence and a discussion of some questions." <i>Journal of the National Cancer Institute</i>, 173-203. (Available from Blackboard) [SKIM]</li>
+  <li>Cornfield, J. et al. (1959). "Smoking and lung cancer: Recent evidence and a discussion of some questions." <i>Journal of the National Cancer Institute</i>. (Available from Blackboard) [SKIM]</li>
   <li>Nasar, S. (1993). <a href="http://www.nytimes.com/1993/08/22/weekinreview/conversations-david-card-alan-krueger-two-economists-catch-clinton-s-eye-bucking.html?pagewanted=all">"David Card and Alan Krueger; Two Economists Catch Clinton's Eye By Bucking the Common Wisdom."</a href> <i>New York Times</i>.</li>
 </ul>
 
+<hr>
+<hr>
+
+<h3 id="25"><!--#echo var="25" --><small>, 2015-04-06</small></h3>
+Before class:
+<ul>
+  <li>Fox, Chapter 14.1 <a href="#access"><img src="closed.png" height="12"></a href></li>
+  <li>Hamner and Kalkan (2013). <a href="http://dx.doi.org/10.1111/j.1540-5907.2012.00602.x">Behind the Curve: Clarifying the Best Approach to Calculating Predicted Probabilities and Marginal Effects from Limited Dependent Variable Models.</a> <i>American Journal of Political Science</i>. <a href="#access" class="ca"></a></li>
+  <li>Greenhill, Ward, and Sacks (2011). <a href="http://dx.doi.org/10.1111/j.1540-5907.2011.00525.x">The Separation Plot: A new visual method for evaluating the fit of binary models.</a> <i>American Journal of Political Science</i>. <a href="#access" class="ca"></a></li>
+</ul>
+
+
+<h3 id="26"><!--#echo var="26" --><small>, 2015-04-06</small></h3>
+Before class:
+<ul>
+  <li>None.</li>
+</ul>
+
+
+<h3 id="27"><!--#echo var="27" --><small>, 2015-04-08</small></h3>
+Before class:
+<ul>
+  <li>Mood (2010). <a href="http://dx.doi.org/10.1093/esr/jcp006">Logistic Regression: Why We Cannot Do What We Think We Can Do, and What We Can Do About It.</a href> <i>European Sociological Review</i>, 67-82. <a href="#access" class="ca"></a></li>
+  <li>Berry, DeMeritt, and Esarey (2010). <a href="http://dx.doi.org/10.1111/j.1540-5907.2009.00429.x">Testing for Interaction in Binary Logit and Probit Models: Is a Product Term Essential?</a href> <i>American Journal of Political Science</i>, 248-266. <a href="#access" class="ca"></a></li>
+</ul>
+
+Optional after class:
+<ul>
+  <li>Karlson, Holm, Breen (2012). <a href="http://dx.doi.org/10.1177/0081175012444861">Comparing Regression Coefficients Between Same-sample Nested Models Using Logit and Probit: A New Method.</a href> <i>Sociological Methodology</i>, 286-313. <a href="#access" class="ca"></a></li>
+</ul>
+
+<hr>
+<hr>
+
+<h3 id="28"><!--#echo var="28" --><small>, 2015-04-13</small></h3>
+Before class:
+<ul>
+  <li>Fox, Chapter 14.2. </li>
+  <li>Quillian, L. and Pager, D. (2001). <a href="http://www.jstor.org/stable/10.1086/338938">Black Neighbors, Higher Crime? The Role of Racial Stereotypes in Evaluations of Neighborhood Crime.</a href> <i>American Journal of Sociology</i>, 717-767.</li>
+</ul>
+
+
+<h3 id="29"><!--#echo var="29" --><small>, 2015-04-13</small></h3>
+Before class:
+<ul>
+  <li>None.</li>
+</ul>
+
+
+<h3 id="30"><!--#echo var="30" --><small>, 2015-04-15</small></h3>
+Before class:
+<ul>
+  <li>Fox, Chapter 15.1. and 15.2</li>
+</ul>
 
 
 <br />
