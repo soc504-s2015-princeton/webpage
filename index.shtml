@@ -79,7 +79,7 @@ By the end of the semester, you will be able to:
 <!--#set var="20" value="Lab-Turning tables into graphs" -->
 <!--#set var="21" value="Causal graphs" -->
 <!--#set var="22" value="Conditioning and matching for causal inference" -->
-<!--#set var="23" value="Lab-Turning tables into graphs" -->
+<!--#set var="23" value="Lab-Replication studio" -->
 <!--#set var="24" value="Regression, causal inference, and shoe leather" -->
 <!--#set var="25" value="Logit and probit models for categorical response variables" -->
 <!--#set var="26" value="Lab-Working with logit and probit coefficients" -->
