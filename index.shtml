@@ -29,6 +29,7 @@ By the end of the semester, you will be able to:
         <li>Conduct, interpret, and communicate results from analysis using multiple regression (including dummy variables and interactions).</li>
         <li>Conduct, interpret, and communicate results from analysis using logistic regression (including dummy variables and interactions).</li>
         <li>Describe the relationship between multiple regression, logistic regression, and then generalized linear model.</li>
+        <li>Explain the limitations of observational data for making causal claims, and begin to use existing strategies for attempting to make causal claims from observational data.</li>
         <li>Write clean, reusable, and reliable R code.</li>
         <li>Build a solid, reproducible research pipeline to go from raw data to final paper.</li>
         <li>Feel empowered working with data.</li>
@@ -482,6 +483,11 @@ Before class:
 Before class:
 <ul>
   <li>Mogran and Winship (2015) <a href="http://www.amazon.com/gp/product/1107694167/">Counterfactuals and Causal Inference</a>: Chapter 3 (Causal graphs). (Available from Blackboard)</li>
+</ul>
+
+Optional after class:
+<ul>
+  <li>Elwert and Winship (2014) <a href="http://dx.doi.org/10.1146/annurev-soc-071913-043455">Endogenous Selection Bias: The Problem of Conditioning on a Collider Variable</a> <i>Annual Review of Sociology</i>.</li>
 </ul>
 
 <hr>
