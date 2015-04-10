@@ -88,6 +88,12 @@ By the end of the semester, you will be able to:
 <!--#set var="28" value="Models for polytomous data" -->
 <!--#set var="29" value="Lab-Working with models for polytomous data" -->
 <!--#set var="30" value="Generalized linear model and models for count data" -->
+<!--#set var="31" value="Multilevel modeling" -->
+<!--#set var="32" value="Hurricanes!" -->
+<!--#set var="33" value="Multilevel modeling" -->
+<!--#set var="34" value="Cautions, warnings, and wisdom" -->
+<!--#set var="35" value="Presentations" -->
+<!--#set var="36" value="Cautions, warnings, and wisdom" -->
 
 
 
@@ -162,11 +168,15 @@ By the end of the semester, you will be able to:
   </tr>
   <tr>
     <td>11</td>
-    <td colspan=3 align="center">Multilevel models</td>
+    <td><a href="#31"><!--#echo var="31" --></a></td>
+    <td><a href="#32"><!--#echo var="32" --></a></td>
+    <td><a href="#33"><!--#echo var="33" --></a></td>
   </tr>
   <tr>
     <td>12</td>
-    <td colspan=3 align="center">Cautions, warnings, and wisdom</td>
+    <td><a href="#34"><!--#echo var="34" --></a></td>
+    <td><a href="#35"><!--#echo var="35" --></a></td>
+    <td><a href="#36"><!--#echo var="36" --></a></td>
   </tr>
 
 </table>
@@ -559,8 +569,8 @@ Optional after class:
 <h3 id="28"><!--#echo var="28" --><small>, 2015-04-13</small></h3>
 Before class:
 <ul>
-  <li>Fox, Chapter 14.2. </li>
-  <li>Quillian, L. and Pager, D. (2001). <a href="http://www.jstor.org/stable/10.1086/338938">Black Neighbors, Higher Crime? The Role of Racial Stereotypes in Evaluations of Neighborhood Crime.</a href> <i>American Journal of Sociology</i>, 717-767.</li>
+  <li>Fox, Chapter 14.2. <a href="#access" class="ca"></a></li>
+  <li>Quillian, L. and Pager, D. (2001). <a href="http://www.jstor.org/stable/10.1086/338938">Black Neighbors, Higher Crime? The Role of Racial Stereotypes in Evaluations of Neighborhood Crime.</a href> <i>American Journal of Sociology</i>. <a href="#access" class="ca"></a></li>
 </ul>
 
 
@@ -574,9 +584,16 @@ Before class:
 <h3 id="30"><!--#echo var="30" --><small>, 2015-04-15</small></h3>
 Before class:
 <ul>
-  <li>Fox, Chapter 15.1. and 15.2</li>
+  <li>Fox, Chapter 15.1. and 15.2 (stop at Three-Way Tables) <a href="#access" class="ca"></a></li>
+  <li>Press release <a href="http://www.eurekalert.org/pub_releases/2014-06/uoia-shw052814.php">Study: Hurricanes with female names more deadly than male-named storms</a> <a href="#access" class="oa"></a>.</li>
+  <li>Jung et al. (2014) <a href="10.1073/pnas.1402786111">Female hurricanes are deadlier than male hurricanes</a> PNAS. (we will not discuss the parts of this paper dealing with experiments)<a href="#access" class="ca"></a></li>
+  <li>Freese (2014) <a href="https://scatter.wordpress.com/2014/06/03/my-thoughts-on-that-hurricane-study/">My thoughts on that hurricane study</a> <i>Blog post</i>. <a href="#access" class="oa"></a></li>
 </ul>
 
+<hr>
+<hr>
+
+More coming soon
 
 <br />
 <br />
