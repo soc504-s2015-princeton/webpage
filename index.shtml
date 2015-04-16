@@ -88,11 +88,11 @@ By the end of the semester, you will be able to:
 <!--#set var="28" value="Models for polytomous data" -->
 <!--#set var="29" value="Lab-Working with models for polytomous data" -->
 <!--#set var="30" value="Generalized linear model and models for count data" -->
-<!--#set var="31" value="Making simple models more flexible and interesting" -->
+<!--#set var="31" value="Making simple (and complex) models more flexible and interesting" -->
 <!--#set var="32" value="Hurricanes!" -->
 <!--#set var="33" value="Multilevel modeling" -->
 <!--#set var="34" value="Sampling, networks, and hidden populations" -->
-<!--#set var="35" value="Presentations" -->
+<!--#set var="35" value="Lab-Project presentations" -->
 <!--#set var="36" value="Cautions, warnings, and wisdom" -->
 
 
@@ -586,7 +586,7 @@ Before class:
 <ul>
   <li>Fox, Chapter 15.1. and 15.2 (stop at Three-Way Tables) <a href="#access" class="ca"></a></li>
   <li>Press release <a href="http://www.eurekalert.org/pub_releases/2014-06/uoia-shw052814.php">Study: Hurricanes with female names more deadly than male-named storms</a> <a href="#access" class="oa"></a>.</li>
-  <li>Jung et al. (2014) <a href="10.1073/pnas.1402786111">Female hurricanes are deadlier than male hurricanes</a> PNAS. (we will not discuss the parts of this paper dealing with experiments)<a href="#access" class="ca"></a></li>
+  <li>Jung et al. (2014) <a href="10.1073/pnas.1402786111">Female hurricanes are deadlier than male hurricanes</a> <i>PNAS</i>. (we will not discuss the parts of this paper dealing with experiments) <a href="#access" class="ca"></a></li>
   <li>Freese (2014) <a href="https://scatter.wordpress.com/2014/06/03/my-thoughts-on-that-hurricane-study/">My thoughts on that hurricane study</a> <i>Blog post</i>. <a href="#access" class="oa"></a></li>
 </ul>
 
@@ -597,7 +597,7 @@ Before class:
 <h3 id="31"><!--#echo var="31" --><small>, 2015-04-20</small></h3>
 Before class:
 <ul>
-  <li>Gelman and Hill (2007) Chapter 4 (Linear regression: before and after fitting the model) in Data analysis using regression and multilevel/hierarchical models. <a href="#access" class="ca"></a></li>
+  <li>Gelman and Hill (2007) Chapter 4 (Linear regression: before and after fitting the model) in <i>Data analysis using regression and multilevel/hierarchical models</i>. <a href="#access" class="ca"></a></li>
   <li>Datacoloda blog: <a href="http://datacolada.org/2014/09/17/27-thirty-somethings-are-shrinking-and-other-u-shaped-challenges/">Thirty-somethings are Shrinking and Other U-Shaped Challenges</a>. <a href="#access" class="oa"></a></li>
 </ul>
 
@@ -605,15 +605,16 @@ Before class:
 <h3 id="32"><!--#echo var="32" --><small>, 2015-04-20</small></h3>
 Before class:
 <ul>
-  <li>None.</li>
+  <li>Jung et al. (2014) <a href="10.1073/pnas.1402786111">Female hurricanes are deadlier than male hurricanes</a> <i>PNAS</i>. (we will not discuss the parts of this paper dealing with experiments) <a href="#access" class="ca"></a></li>
+  <li>Freese (2014) <a href="https://scatter.wordpress.com/2014/06/03/my-thoughts-on-that-hurricane-study/">My thoughts on that hurricane study</a> <i>Blog post</i>. <a href="#access" class="oa"></a></li>
 </ul>
 
 
 <h3 id="33"><!--#echo var="33" --><small>, 2015-04-22</small></h3>
 Before class:
 <ul>
-  <li>Gelman and Hill (2007) Chapter 11 (Multilevel structures) in Data analysis using regression and multilevel/hierarchical models. <a href="#access" class="ca"></a></li>
-  <li>Xie and Hannum (1996). <a href="http://www.jstor.org/stable/2782235">Regional Variation in Earnings Inueqality in Reform-Era Urban China.</a> <i>American Journal of Sociology</i>. (Note: Focus especially on pages 950-972 and the appendix). <a href="#access" class="ca"></li>
+  <li>Gelman and Hill (2007) Chapter 11 (Multilevel structures) in <i>Data analysis using regression and multilevel/hierarchical models</i>. <a href="#access" class="ca"></a></li>
+  <li>Xie and Hannum (1996). <a href="http://www.jstor.org/stable/2782235">Regional Variation in Earnings Inueqality in Reform-Era Urban China.</a> <i>American Journal of Sociology</i>. (Note: Focus especially on pages 950-972 and the appendix). <a href="#access" class="ca"></a></li>
 </ul>
 
 <hr>
