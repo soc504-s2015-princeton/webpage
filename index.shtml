@@ -88,10 +88,10 @@ By the end of the semester, you will be able to:
 <!--#set var="28" value="Models for polytomous data" -->
 <!--#set var="29" value="Lab-Working with models for polytomous data" -->
 <!--#set var="30" value="Generalized linear model and models for count data" -->
-<!--#set var="31" value="Multilevel modeling" -->
+<!--#set var="31" value="Making simple models more flexible and interesting" -->
 <!--#set var="32" value="Hurricanes!" -->
 <!--#set var="33" value="Multilevel modeling" -->
-<!--#set var="34" value="Cautions, warnings, and wisdom" -->
+<!--#set var="34" value="Sampling, networks, and hidden populations" -->
 <!--#set var="35" value="Presentations" -->
 <!--#set var="36" value="Cautions, warnings, and wisdom" -->
 
@@ -593,7 +593,66 @@ Before class:
 <hr>
 <hr>
 
-More coming soon
+
+<h3 id="31"><!--#echo var="31" --><small>, 2015-04-20</small></h3>
+Before class:
+<ul>
+  <li>Gelman and Hill (2007) Chapter 4 (Linear regression: before and after fitting the model) in Data analysis using regression and multilevel/hierarchical models. <a href="#access" class="ca"></a></li>
+  <li>Datacoloda blog: <a href="http://datacolada.org/2014/09/17/27-thirty-somethings-are-shrinking-and-other-u-shaped-challenges/">Thirty-somethings are Shrinking and Other U-Shaped Challenges</a>. <a href="#access" class="oa"></a></li>
+</ul>
+
+
+<h3 id="32"><!--#echo var="32" --><small>, 2015-04-20</small></h3>
+Before class:
+<ul>
+  <li>None.</li>
+</ul>
+
+
+<h3 id="33"><!--#echo var="33" --><small>, 2015-04-22</small></h3>
+Before class:
+<ul>
+  <li>Gelman and Hill (2007) Chapter 11 (Multilevel structures) in Data analysis using regression and multilevel/hierarchical models. <a href="#access" class="ca"></a></li>
+  <li>Xie and Hannum (1996). <a href="http://www.jstor.org/stable/2782235">Regional Variation in Earnings Inueqality in Reform-Era Urban China.</a> <i>American Journal of Sociology</i>. (Note: Focus especially on pages 950-972 and the appendix). <a href="#access" class="ca"></li>
+</ul>
+
+<hr>
+<hr>
+
+<h3 id="34"><!--#echo var="34" --><small>, 2015-04-27</small></h3>
+Before class:
+<ul>
+  <li>Feehan and Salganik (2014) <a href="http://arxiv.org/abs/1404.4009">Generalizing the Network Scale-Up Method: A New Estimator for the Size of Hidden Populations</a> Working paper. [SKIM]</li>
+  <li>Salganik et al (2011) <a href="http://www.princeton.edu/~mjs3/salganik_assessing_2011.pdf">Assessing network scale-up estimates for groups most at risk for HIV/AIDS: Evidence from a multiple method study of heavy drug users in Curitiba, Brazil.</a> <i>American Journal of Epidemiology</i>. (<a href="http://opr.princeton.edu/archive/nsum/">data and code available</a>)[SKIM]</li>
+  <li>Feehan et al (2015) <a href="">Quality vs quantity: A survey experiment to improve the network scale-up method.</a> <i>Working paper</i> (Available from Blackboard) [SKIM]</li>
+</ul>
+
+Optional after class:
+<ul>
+  <li>Korn, E.L. and Graubard, B.I. (1995). <a href="http://www.jstor.org/stable/2684203">"Examples of Differing Weighted and Unweighted Estimates from a Sample Survey."</a href> <i>The American Statistician</i>, 49(3):291-295.</li>
+  <li><a href="http://faculty.washington.edu/tlumley/survey/">Survey analysis in R</a href></li>
+  <li>Kish, L. (1992).  "Weighting for Unequal Pi." <i>Journal of Official Statistics</i>, 8(2):183-200.</li>
+</ul>
+
+
+
+<h3 id="35"><!--#echo var="35" --><small>, 2015-04-27</small></h3>
+Before class:
+<ul>
+  <li>None.</li>
+</ul>
+NOTE: This lab will end at 4:30 so that we can attend the Tumin Lecture.
+
+
+<h3 id="36"><!--#echo var="36" --><small>, 2015-04-29</small></h3>
+Before class:
+<ul>
+  <li>Fox, Chapter 1. <a href="#access" class="ca"></a></li>
+  <li>Berk (2003). <i>Regression Analysis: A Constructive Critque</i>: Chapter 11 (What to do). [Available from Blackboard] <a href="#access" class="ca"></a></li>
+  <li>Rosenbaum (2002). <i>Observational Studies</i>: Chapters 11 (Planning an observational study) and 12 (Some strategic issues). [Available on Blackboard] <a href="#access" class="ca"></a> </li>
+</ul>
+
+
 
 <br />
 <br />
