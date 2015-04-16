@@ -586,7 +586,7 @@ Before class:
 <ul>
   <li>Fox, Chapter 15.1. and 15.2 (stop at Three-Way Tables) <a href="#access" class="ca"></a></li>
   <li>Press release <a href="http://www.eurekalert.org/pub_releases/2014-06/uoia-shw052814.php">Study: Hurricanes with female names more deadly than male-named storms</a> <a href="#access" class="oa"></a>.</li>
-  <li>Jung et al. (2014) <a href="10.1073/pnas.1402786111">Female hurricanes are deadlier than male hurricanes</a> <i>PNAS</i>. (we will not discuss the parts of this paper dealing with experiments) <a href="#access" class="ca"></a></li>
+  <li>Jung et al. (2014) <a href="http://dx.doi.org/10.1073/pnas.1402786111">Female hurricanes are deadlier than male hurricanes</a> <i>PNAS</i>. (we will not discuss the parts of this paper dealing with experiments) <a href="#access" class="ca"></a></li>
   <li>Freese (2014) <a href="https://scatter.wordpress.com/2014/06/03/my-thoughts-on-that-hurricane-study/">My thoughts on that hurricane study</a> <i>Blog post</i>. <a href="#access" class="oa"></a></li>
 </ul>
 
@@ -605,7 +605,7 @@ Before class:
 <h3 id="32"><!--#echo var="32" --><small>, 2015-04-20</small></h3>
 Before class:
 <ul>
-  <li>Jung et al. (2014) <a href="10.1073/pnas.1402786111">Female hurricanes are deadlier than male hurricanes</a> <i>PNAS</i>. (we will not discuss the parts of this paper dealing with experiments) <a href="#access" class="ca"></a></li>
+  <li>Jung et al. (2014) <a href="http://dx.doi.org/10.1073/pnas.1402786111">Female hurricanes are deadlier than male hurricanes</a> <i>PNAS</i>. (we will not discuss the parts of this paper dealing with experiments) <a href="#access" class="ca"></a></li>
   <li>Freese (2014) <a href="https://scatter.wordpress.com/2014/06/03/my-thoughts-on-that-hurricane-study/">My thoughts on that hurricane study</a> <i>Blog post</i>. <a href="#access" class="oa"></a></li>
 </ul>
 
@@ -625,7 +625,7 @@ Before class:
 <ul>
   <li>Feehan and Salganik (2014) <a href="http://arxiv.org/abs/1404.4009">Generalizing the Network Scale-Up Method: A New Estimator for the Size of Hidden Populations</a> Working paper. [SKIM]</li>
   <li>Salganik et al (2011) <a href="http://www.princeton.edu/~mjs3/salganik_assessing_2011.pdf">Assessing network scale-up estimates for groups most at risk for HIV/AIDS: Evidence from a multiple method study of heavy drug users in Curitiba, Brazil.</a> <i>American Journal of Epidemiology</i>. (<a href="http://opr.princeton.edu/archive/nsum/">data and code available</a>)[SKIM]</li>
-  <li>Feehan et al (2015) <a href="">Quality vs quantity: A survey experiment to improve the network scale-up method.</a> <i>Working paper</i> (Available from Blackboard) [SKIM]</li>
+  <li>Feehan et al (2015) Quality vs quantity: A survey experiment to improve the network scale-up method. <i>Working paper</i> (Available from Blackboard) [SKIM]</li>
 </ul>
 
 Optional after class:
