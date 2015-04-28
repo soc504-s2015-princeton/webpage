@@ -80,6 +80,7 @@
           <li>Is the logic of the code clear?</li>
           <li>Does the code have lots of copying-and-pasting?</li>
           <li>Are there parts of the code that should use loops or functions?</li>
+          <li>What are things about the code that you particularly like?</li>
         </ul>
 
         <h2 id="requirements">Technical requirements</h2>
