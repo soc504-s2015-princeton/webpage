@@ -21,7 +21,7 @@
         <p>Here are the six steps to the project:</p>
         <ol>
           <li><a href="#pick">Pick a paper</a></li>
-          <li><a href="#proposal">Get that paper approved</a></li>
+          <li><a href="#proposal">Get your plan approved</a></li>
           <li><a href="#reproduce">Reproduce the results exactly</a></li>
           <li><a href="#peer1">Have your work reproduced by a peer and get feedback</a></li>
           <li><a href="#new">Do something new</a></li>
@@ -45,7 +45,7 @@
         <p>When picking a paper it may be hard for you to tell if the methods will be far beyond what will be covered in class.  When in doubt, post a question to Piazza.</p>
 
 
-        <h3 id="proposal">Get that paper approved</h2>
+        <h2 id="proposal">Get your plan approved</h2>
 
         <p>Before getting too far into your project you must get your plan approved.  Your project proposal must be written in a structured format and must include each of the following elements:</p>
 
@@ -62,7 +62,7 @@
           <li>pdf copy of the paper</li>
         </ol>
 
-        <p>If you do not provide us with all of those elements, it will be hard for us to give you good advice.</p>
+        <p>If you do not provide us with all of those elements, it will be impossible for us to give you good advice.</p>
 
 
         <h2 id="reproduce">Reproduce the results exactly</h2>
