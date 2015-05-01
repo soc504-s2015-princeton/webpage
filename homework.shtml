@@ -17,24 +17,36 @@
 
   <table style="width:100%">
     <tr>
-      <td><a href="https://raw.githubusercontent.com/soc504-s2015-princeton/hw1/master/hw1.Rmd">Assigment 1</a></td>
+      <td><a href="https://raw.githubusercontent.com/soc504-s2015-princeton/hw1/master/hw1">Assignment 1</a></td>
       <td>Due: Febrary 8, 2015</td>
-      <td><a href="https://raw.githubusercontent.com/soc504-s2015-princeton/hw1/master/hw1_solutions.Rmd">Solutions</a></td>
+      <td>Solutions
+        (<a href="https://github.com/soc504-s2015-princeton/hw1/blob/master/hw1_solutions.Rmd">Rmd</a> or
+         <a href="https://cdn.rawgit.com/soc504-s2015-princeton/hw1/master/hw1_solutions.html">html</a>)
+      </td>
     </tr>
     <tr>
-      <td><a href="https://github.com/soc504-s2015-princeton/hw2">Assignment 2</a></td>
+      <td><a href="https://github.com/soc504-s2015-princeton/hw2-public">Assignment 2</a></td>
       <td>Due: Febrary 15, 2015</td>
-      <td><a href="https://github.com/soc504-s2015-princeton/hw2/blob/master/hw2_solutions.Rmd">Solutions</a></td>
+      <td>Solutions
+        (<a href="https://github.com/soc504-s2015-princeton/hw2-public/blob/master/hw2_solutions.Rmd">Rmd</a> or
+        <a href="https://cdn.rawgit.com/soc504-s2015-princeton/hw2-public/master/hw2_solutions.html">html</a>)
+      </td>
     </tr>
     <tr>
-      <td><a href="https://github.com/soc504-s2015-princeton/hw3">Assignment 3</a></td>
+      <td><a href="https://github.com/soc504-s2015-princeton/hw3-public">Assignment 3</a></td>
       <td>Due: March 2, 2015</td>
-      <td><a href="https://github.com/soc504-s2015-princeton/hw3/blob/master/hw3_solutions.Rmd">Solutions</a></td>
+      <td>Solutions
+        (<a href="https://github.com/soc504-s2015-princeton/hw3-public/blob/master/hw3_solutions.Rmd">Rmd</a> or
+        <a href="https://cdn.rawgit.com/soc504-s2015-princeton/hw3-public/master/hw3_solutions.html">html</a>)
+      </td>
     </tr>
     <tr>
       <td><a href="https://github.com/soc504-s2015-princeton/hw4">Assignment 4</a></td>
       <td>Due: April 19, 2015</td>
-      <td><a href="https://github.com/soc504-s2015-princeton/hw4/blob/master/hw4_solutions.Rmd">Solutions</a></td>
+      <td>Solutions
+        (<a href="https://github.com/soc504-s2015-princeton/hw4/blob/master/hw4_solutions.Rmd">Rmd</a> or
+        <a href="https://cdn.rawgit.com/soc504-s2015-princeton/hw4/master/hw4_solutions.html">html</a>)
+      </td>
     </tr>
   </table>
 
