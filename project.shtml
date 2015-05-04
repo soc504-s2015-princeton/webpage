@@ -13,154 +13,172 @@
 
     <p>In this project, you will work with a partner to reproduce and extend a published research article. The primary goal of this project is to provide the raw materials for a publishable paper, which will be developed and written in the empirical seminar
       next year. The secondary goals of this project are to 1) give you practice learning new statistical material and computational techniques; 2) give you practice using good software engineering techniques; 3) give you practice doing collaborative
-      research, something you will do throughout your career; 4) show you, in a way that no homework assignment can, the complexity and joy of doing real data analysis. This project not be without pain -- <a href="https://politicalsciencereplication.wordpress.com/2013/05/14/nightmare-after-nightmare-students-trying-to-replicate-work/">Nightmare after nightmare: students trying to replicate work</a>      -- but it will be worth it.
-      <p>
+      research, something you will do throughout your career; 4) show you, in a way that no homework assignment can, the complexity and joy of doing real data analysis. This project not be without pain -- <a href="https://politicalsciencereplication.wordpress.com/2013/05/14/nightmare-after-nightmare-students-trying-to-replicate-work/">Nightmare after nightmare: students trying to replicate work</a>      -- but it will be worth it.</p>
 
-        <p>For the project, you must follow the <a href="#schedule">schedule</a> and meet certian <a href="#requirements">technical requirements</a>.</p>
+    <p>For the project, you must follow the <a href="#schedule">schedule</a> and meet certian <a href="#requirements">technical requirements</a>.</p>
+    <p>
+      Here are the six steps to the project:</p>
+    <ol>
+      <li><a href="#pick">Pick a paper</a></li>
+      <li><a href="#proposal">Get your plan approved</a></li>
+      <li><a href="#reproduce">Reproduce the results exactly</a></li>
+      <li><a href="#peer1">Have your work reproduced by a peer and get feedback</a></li>
+      <li><a href="#new">Do something new</a></li>
+      <li><a href="#peer2">Have your work reproduced by a peer and get feedback</a></li>
+    </ol>
 
-        <p>Here are the six steps to the project:</p>
-        <ol>
-          <li><a href="#pick">Pick a paper</a></li>
-          <li><a href="#proposal">Get your plan approved</a></li>
-          <li><a href="#reproduce">Reproduce the results exactly</a></li>
-          <li><a href="#peer1">Have your work reproduced by a peer and get feedback</a></li>
-          <li><a href="#new">Do something new</a></li>
-          <li><a href="#peer2">Have your work reproduced by a peer and get feedback</a></li>
-        </ol>
+    <h3 id="pick">1) Pick a paper</h3>
 
-        <h2 id="pick">Pick a paper</h2>
+    <p>You should pick a paper in an area that is interesting to you. Some people recommend that the paper be published recently and in a top journal in the field. Also, the paper should use methods related to those that we are going to learn in the course.</p>
+    <p>Since this is the first time I’ve tried this project, I'm going to require that the paper you select has data already available. I don't want you to spend your time emailing with authors. That is not the kind of learning experience I’m hoping to create
+      with this project. Also, I strongly recommend that you pick a paper where the code is already available. To be clear, you should not use this code. But, having this code available means that you should be able to ultimately reproduce the results
+      in the published paper.</p>
+    <p>If you are looking for papers to replicate here are some strategies that you could use:</p>
+    <ul>
+      <li>browse examples of papers that have been replicated by students in the past: <a href="http://projects.iq.harvard.edu/gov2001/data">dataverse for Harvard's Gov2001 course</a> and <a href="https://thedata.harvard.edu/dvn/dv/CambridgeReplication">dataverse for Combridge Replcation Workshop</a>.</li>
+      <li>start with a large, public data set and look for papers that use it. For example, here are lists of papers that use <a href="http://www.cpc.unc.edu/projects/addhealth/publications">Add Health</a> and <a href="http://crcw.princeton.edu/publications/publications.asp">Fragile Families</a>.</li>
+      <li>browse data archives. Some examples are: <a href="http://dataverse.org/">dataverse</a>, <a href="http://isps.yale.edu/research/data">ISPS data archive</a>, <a href="http://opr.princeton.edu/archive/">OPR data archive</a>, <a href="http://www.tessexperiments.org/previousstudies.html">TESS</a>,
+        and <a href="http://www.icpsr.umich.edu/icpsrweb/ICPSR/">ICPSR</a>.</li>
+      <li>think about papers that you have read in your classes that you really enjoyed (or thought were wrong).</li>
+      <li>talk to your advisor, advanced graduate students, and your classmates.</li>
+    </ul>
 
-        <p>You should pick a paper in an area that is interesting to you. Some people recommend that the paper be published recently and in a top journal in the field. Also, the paper should use methods related to those that we are going to learn in the course.</p>
-        <p>Since this is the first time I’ve tried this project, I'm going to require that the paper you select has data already available. I don't want you to spend your time emailing with authors. That is not the kind of learning experience I’m hoping to create with this project. Also, I strongly recommend that you pick a paper where the code is already available. To be clear, you should not use this code. But, having this code available means that you should be able to ultimately reproduce
-          the results in the published paper.</p>
-        <p>If you are looking for papers to replicate here are some strategies that you could use:</p>
-        <ul>
-          <li>browse examples of papers that have been replicated by students in the past: <a href="http://projects.iq.harvard.edu/gov2001/data">dataverse for Harvard's Gov2001 course</a> and <a href="https://thedata.harvard.edu/dvn/dv/CambridgeReplication">dataverse for Combridge Replcation Workshop</a>.</li>
-          <li>start with a large, public data set and look for papers that use it.  For example, here are lists of papers that use <a href="http://www.cpc.unc.edu/projects/addhealth/publications">Add Health</a> and <a href="http://crcw.princeton.edu/publications/publications.asp">Fragile Families</a>.</li>
-           <li>browse data archives.  Some examples are: <a href="http://dataverse.org/">dataverse</a>, <a href="http://isps.yale.edu/research/data">ISPS data archive</a>, <a href="http://opr.princeton.edu/archive/">OPR data archive</a>, <a href="http://www.tessexperiments.org/previousstudies.html">TESS</a>, and <a href="http://www.icpsr.umich.edu/icpsrweb/ICPSR/">ICPSR</a>.</li>
-           <li>think about papers that you have read in your classes that you really enjoyed (or thought were wrong).</li>
-           <li>Talk to your advisor, advanced graduate students, and your classmates.</li>
-        </ul>
-
-        <p>When picking a paper it may be hard for you to tell if the methods will be far beyond what will be covered in class.  When in doubt, post a question to Piazza.</p>
-
-
-        <h2 id="proposal">Get your plan approved</h2>
-
-        <p>Before getting too far into your project you must get your plan approved.  Your project proposal must be written in a structured format and must include each of the following elements:</p>
-
-        <ol>
-          <li>Citation information for the paper you want to reproduce</li>
-          <li>Summary of main results of the paper</li>
-          <li>List of main statistical methods used</li>
-          <li>List of datasets used</li>
-          <li>Were these datasets collected via complex sample designs? This will influence the difficulty of the replication.</li>
-          <li>Summary of data availability and data access plan</li>
-          <li>Summary of code availability (code availability is not required)</li>
-          <li>List of ideas for how the paper could be improved or extended (see here for ideas about what you can do <a href="#new">new</a>)</li>
-          <li>Short explanation for why you and your partner picked this paper</li>
-          <li>pdf copy of the paper</li>
-        </ol>
-
-        <p>If you do not provide us with all of those elements, it will be impossible for us to give you good advice.</p>
+    <p>When picking a paper it may be hard for you to tell if the methods will be far beyond what will be covered in class. When in doubt, post a question to Piazza.</p>
 
 
-        <h2 id="reproduce">Reproduce the results exactly</h2>
+    <h3 id="proposal">2) Get your plan approved</h3>
 
-        <p>You should be able to re-create every table and graph in the paper. At this point, however, you should not spend to much time on layout.  So, if hte figure has a lengend on top and your legend is on the side that is fine, as long as the results clearly match.</p>
+    <p>Before getting too far into your project you must get your plan approved. Your project proposal must be written in a structured format and must include each of the following elements:</p>
 
-        <p>Begin your replication by creating a document with images of each table and each figure. Next, add the parts of the text where the authors describe how the results were generated. Finally, create code that reproduces the results. This document will be highly structured. For example,</p>
-        <ul>
-          <li>Image of Table 1</li>
-          <li>Text describing how Table 1 was created</li>
-          <li>Your code to reproduce Table 1</li>
-        </ul>
+    <ol>
+      <li>Citation information for the paper you want to reproduce</li>
+      <li>Summary of main results of the paper</li>
+      <li>List of main statistical methods used</li>
+      <li>List of datasets used</li>
+      <li>Were these datasets collected via complex sample designs? This will influence the difficulty of the replication.</li>
+      <li>Summary of data availability and data access plan</li>
+      <li>Summary of code availability (code availability is not required)</li>
+      <li>List of ideas for how the paper could be improved or extended (see here for ideas about what you can do <a href="#new">new</a>)</li>
+      <li>Short explanation for why you and your partner picked this paper</li>
+      <li>pdf copy of the paper</li>
+    </ol>
 
-        <p>There does not need to be any theory or literature review in this document.  It is just about reproducing the results.</p>
-
-
-        <h2 id="peer1">Have your duplication reproduced by a peer and receive feedback</h2>
-        <p>Someone in the class will clone your repo and reproduce your reproduction.  Also, they will send you some <a href="#feedback">helpful feedback</a>.</p>
-
-        <h2 id="new">Do something new</h2>
-        <p>You should somehow extend or improve the paper you are reproducing. Here are some examples of how you could do that:</p>
-        <ul>
-          <li>create different visualizations of their data and results.</li>
-          <li>extend the analysis by using different methods or asking different questions.</li>
-          <li>re-run the same analysis on completely different data.</li>
-          <li>take an old paper and update the analysis with newer data.</li>
-          <li>For other ideas on how to add value, see <a href="http://gking.harvard.edu/files/gking/files/paperspub.pdf">item 8 in King 2006</a>.</li>
-        </ul>
-
-        <h2 id="peer2">Have your work reproduced by a peer and receive feedback</h2>
-        <p>Again, someone in the class will clone your repo and reproduce your work.  Also, they will send you some <a href="#feedback">helpful feedback</a>.</p>
-
-        <h2 id="feedback">Tips for providing feedback</h2>
-        <p>Twice in the course you will reproduce a peer's work and provide feedback. Your feedback should be constructive and specific. Here are examples for the kinds of things could be included in the feedback:</p>
-        <ul>
-          <li>Are the variable names clear?</li>
-          <li>Is the logic of the code clear?</li>
-          <li>Does the code have lots of copying-and-pasting?</li>
-          <li>Are there parts of the code that should use loops or functions?</li>
-          <li>What are things about the code that you particularly like?</li>
-        </ul>
-
-        <h2 id="requirements">Technical requirements</h2>
-        <ul>
-          <li>You must work with a partner.  Groups of three are also allowed if needed.</li>
-          <li>You must use RMarkdown or LaTeX + knitr. This ensures that your code and your words are in the same place.</li>
-          <li>You and your partner(s) must use github for project management and version control.</li>
-        </ul>
-
-        <h2 id="schedule">Schedule</h2>
-        <ul>
-          <li>Week 1: look for a paper and a partner</li>
-          <li>End of Week 2 (Sunday, Feb 15, 2015): post to Piazza a <a href="#proposal">proposal</a> for your project</li>
-          <li>Week 3: prepare template for reproduction</li>
-          <li>Week 4: work on reproduction</li>
-          <li>Week 5: more work on reproduction</li>
-          <li>Week 6: submit reproduction by Sunday, March 15, 2015 at midnight</li>
-          <li>SPRING BREAK</li>
-          <li>Week 7: reproduce reproduction created by a peer, and write a memo offering suggestions for how to improve</li>
-          <li>Week 8: work on doing something new</li>
-          <li>Week 9: work on doing something new</li>
-          <li>Week 10: work on doing something new</li>
-          <li>Week 11: Submit your replication and extension</li>
-          <li>Week 12: reproduce reproduction and extension created by a peer, and write a memo offering suggestions for how to improve</li>
-          <li>Reading period: make improvements based on feedback</li>
-          <li>Dean’s Date (Tuesday, May 12): submit final product</li>
-        </ul>
+    <p>If you do not provide us with all of those elements, it will be impossible for us to give you good advice.</p>
 
 
-<h2>Presentation</h2>
-<p>The goal of your presentation is to teach the class about your replication project and explain what you have learned. </p>
+    <h3 id="reproduce">3) Reproduce the results exactly</h3>
 
-<p>Each group will do a 5 minute presentation; here’s a rough outline (but you can tailor it to your specific project):</p>
-<ul>
-<li>summary of the paper you replicated (about 1 minute)</li>
-<li>description of your replication and any problems you had (about 1 minute)</li>
-<li>description of your extension (about 2 minute)</li>
-<li>three biggest things you learned from doing this project (about 1 minute)</li>
-</ul>
+    <p>You should be able to re-create every table and graph in the paper. At this point, however, you should not spend to much time on layout. So, if hte figure has a lengend on top and your legend is on the side that is fine, as long as the results clearly
+      match.
+    </p>
 
-<p>You are welcome to use slides.</p>
+    <p>Begin your replication by creating a document with images of each table and each figure. Next, add the parts of the text where the authors describe how the results were generated. Finally, create code that reproduces the results. This document will
+      be highly structured. For example,</p>
+    <ul>
+      <li>Image of Table 1</li>
+      <li>Text describing how Table 1 was created</li>
+      <li>Your code to reproduce Table 1</li>
+    </ul>
 
-        <h2>Inspirations</h2>
-        This project was inspired by similar projects other classes.  I would like to thank Gary King, Brandon Stewart, Cristobal Young, Kosuke Imai, and Nicole Janz for their help in shaping this project.
-
-         <h2>Suggested further reading</h2>
-         <ul>
-           <li>Janz (2015) <a href="http://dx.doi.org/10.1111/insp.12104">Bringing the Gold Standard into the Classroom: Replication in University Teaching</a> <i>International Studies Perspectives</i>. <a href="#access" class="oa"></a></li>
-         </ul>
+    <p>There does not need to be any theory or literature review in this document. It is just about reproducing the results.</p>
 
 
-      <br />
-      <br />
-      <br />
+    <h3 id="peer1">4) Have your duplication reproduced by a peer and receive feedback</h3>
+    <p>Someone in the class will clone your repo and reproduce your reproduction. Also, they will send you some <a href="#feedback">helpful feedback</a>.</p>
 
-      <!--#include file="footer.html"-->
+    <h3 id="new">5) Do something new</h3>
+    <p>You should somehow extend or improve the paper you are reproducing. Here are some examples of how you could do that:</p>
+    <ul>
+      <li>create different visualizations of their data and results.</li>
+      <li>extend the analysis by using different methods or asking different questions.</li>
+      <li>re-run the same analysis on completely different data.</li>
+      <li>take an old paper and update the analysis with newer data.</li>
+      <li>For other ideas on how to add value, see <a href="http://gking.harvard.edu/files/gking/files/paperspub.pdf">item 8 in King 2006</a>.</li>
+    </ul>
 
-  </div> <!-- /.container -->
+    <h3 id="peer2">6) Have your work reproduced by a peer and receive feedback</h3>
+    <p>Again, someone in the class will clone your repo and reproduce your work. Also, they will send you some <a href="#feedback">helpful feedback</a>.</p>
+    <hr>
+    <hr>
+
+    <h1>Additional information</h1>
+
+    <h4 id="schedule">Schedule</h4>
+    <ul>
+      <li>Week 1: look for a paper and a partner</li>
+      <li>End of Week 2 (Sunday, Feb 15, 2015): post to Piazza a <a href="#proposal">proposal</a> for your project</li>
+      <li>Week 3: prepare template for reproduction</li>
+      <li>Week 4: work on reproduction</li>
+      <li>Week 5: more work on reproduction</li>
+      <li>Week 6: submit reproduction by Sunday, March 15, 2015 at midnight</li>
+      <li>SPRING BREAK</li>
+      <li>Week 7: reproduce reproduction created by a peer, and write a memo offering suggestions for how to improve</li>
+      <li>Week 8: work on doing something new</li>
+      <li>Week 9: work on doing something new</li>
+      <li>Week 10: work on doing something new</li>
+      <li>Week 11: Submit your replication and extension</li>
+      <li>Week 12: reproduce reproduction and extension created by a peer, and write a memo offering suggestions for how to improve</li>
+      <li>Reading period: make improvements based on feedback</li>
+      <li>Dean’s Date (Tuesday, May 12): submit final product</li>
+    </ul>
+
+    <h4 id="feedback">Tips for providing feedback</h4>
+    <p>Twice in the course you will reproduce a peer's work and provide feedback. Your feedback should be constructive and specific. Here are examples for the kinds of things could be included in the feedback:</p>
+    <ul>
+      <li>Are the variable names clear?</li>
+      <li>Is the logic of the code clear?</li>
+      <li>Does the code have lots of copying-and-pasting?</li>
+      <li>Are there parts of the code that should use loops or functions?</li>
+      <li>What are things about the code that you particularly like?</li>
+    </ul>
+
+    <h4 id="requirements">Technical requirements</h4>
+    <ul>
+      <li>You must work with a partner. Groups of three are also allowed if needed.</li>
+      <li>You must use RMarkdown or LaTeX + knitr. This ensures that your code and your words are in the same place.</li>
+      <li>You and your partner(s) must use github for project management and version control.</li>
+    </ul>
+
+    <h4> Presentation</h4>
+    <p>At the end of the semester you will present your results to the class.  The goal of your presentation is to teach the class about your replication project and explain what you have learned. </p>
+
+    <p>Each group will do a 5 minute presentation; here’s a rough outline (but you can tailor it to your specific project):</p>
+    <ul>
+      <li>summary of the paper you replicated (about 1 minute)</li>
+      <li>description of your replication and any problems you had (about 1 minute)</li>
+      <li>description of your extension (about 2 minute)</li>
+      <li>three biggest things you learned from doing this project (about 1 minute)</li>
+    </ul>
+    <p>You are welcome to use slides.</p>
+
+    <h4>Using code from others</h4>
+    <p>You are welcome to use code written by other people, including snippets of code you find online and code written by people who are helping you. However, if you are using code from someone else that must be aknowledged. You would not use someone else's
+      sentences in a paper without attribution, and you should not use their code in your code without attribution either. Sometimes there may be a gray area, and if you are in doubt you should attribute.</p>
+
+    <h4>Inspirations</h4>
+    <p> This project was inspired by similar projects other classes. I would like to thank Gary King, Brandon Stewart, Cristobal Young, Kosuke Imai, and Nicole Janz for their help in shaping this project.</p>
+
+    <h4>Suggested further reading</h4>
+    <ul>
+      <li>Janz (2015) <a href="http://dx.doi.org/10.1111/insp.12104">Bringing the gold standard into the classroom: Replication in university teaching.</a> <i>International Studies Perspectives</i>.
+        <a href="#access" class="oa"></a>
+      </li>
+      <li>King (2006) <a href="http://gking.harvard.edu/files/gking/files/paperspub.pdf">Publication, publication.</a> <i>Ps: Political Science and Politics</i>
+        <a href="#access" class="oa"></a>.
+        <li>King (1995) <a href="http://gking.harvard.edu/files/gking/files/replication.pdf">Replication, replication.</a> <i>Ps: Political Science and Politics</i>
+          <a href="#access" class="oa"></a>.
+        </li>
+    </ul>
+
+
+    <br />
+    <br />
+    <br />
+
+    <!--#include file="footer.html"-->
+
+  </div>
+  <!-- /.container -->
 
 
 
